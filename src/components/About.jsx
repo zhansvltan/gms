@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react'
 
 export default function AboutUsComponent() {
   return (
@@ -7,7 +7,7 @@ export default function AboutUsComponent() {
       <div className="flex justify-center items-center gap-[41px]">
         <img src="expo.svg" alt="Expo" />
         <p
-          style={{ maxWidth: "570px", width: "100%" }}
+          style={{ maxWidth: '570px', width: '100%' }}
           className="text-2.5xl text-[#030303]"
         >
           <strong>Green Mobility Solutions (IEC Research)</strong> оказывает
@@ -20,5 +20,5 @@ export default function AboutUsComponent() {
         </p>
       </div>
     </div>
-  );
+  )
 }
