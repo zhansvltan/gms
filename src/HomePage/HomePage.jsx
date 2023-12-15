@@ -1,26 +1,26 @@
-import React from "react";
-import Header from "../components/Header";
-import ImageComponent from "../components/Image";
-import AboutUsComponent from "../components/About";
-import GroupsComponent from "../components/Group";
-import ExpertiseComponent from "../components/Expertise";
-import ProjectComponent from "../components/Project";
-import PartnerComponent from "../components/Partner";
-import ConsultationComponent from "../components/Consultation";
+import React from 'react'
+import Header from '../components/Header'
+import ImageComponent from '../components/Image'
+import AboutUsComponent from '../components/About'
+import GroupsComponent from '../components/Group'
+import ExpertiseComponent from '../components/Expertise'
+import ProjectComponent from '../components/Project'
+import PartnerComponent from '../components/Partner'
+import ConsultationComponent from '../components/Consultation'
 
 const HomePage = () => {
   return (
-    <div>
+    <div className="bg-[#f0f0f0]">
       <Header />
       <ImageComponent />
       <AboutUsComponent />
       <GroupsComponent />
       <ExpertiseComponent />
-      <ProjectComponent/>
-      <PartnerComponent/>
-      <ConsultationComponent/>
+      <ProjectComponent />
+      <PartnerComponent />
+      <ConsultationComponent />
     </div>
-  );
-};
+  )
+}
 
-export default HomePage;
+export default HomePage
