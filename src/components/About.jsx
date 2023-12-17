@@ -7,8 +7,8 @@ export default function AboutUsComponent() {
       <div className="flex justify-center items-center gap-[41px]">
         <img src="expo.svg" alt="Expo" />
         <p
-          style={{ maxWidth: '570px', width: '100%' }}
-          className="text-2.5xl text-[#030303]"
+          style={{ maxWidth: '603px', width: '100%' }}
+          className="text-[26px] text-[#030303]"
         >
           <strong>Green Mobility Solutions (IEC Research)</strong> оказывает
           услуги в сфере экономического консалтинга, развития территорий и

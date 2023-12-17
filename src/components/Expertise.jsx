@@ -1,9 +1,9 @@
-import React from "react";
+import React from 'react'
 
 export default function ExpertiseComponent() {
   return (
     <>
-      <h2 className="bg-white text-[52px] text-[#5d5d5b] pl-[55px] pb-[39px] font-[500]">
+      <h2 className="bg-white text-[42px] text-[#5d5d5b] pl-[55px] pb-[39px] font-[500]">
         Наша экспертиза
       </h2>
       <div>
@@ -13,7 +13,7 @@ export default function ExpertiseComponent() {
               Инфраструктура
             </h3>
             <p
-              style={{ maxWidth: "454px", width: "100%" }}
+              style={{ maxWidth: '454px', width: '100%' }}
               className="text-[#030303] text-[20px] pb-[42px]"
             >
               Консалтинг и сопровождение инфраструктурных проектов в Казахстане
@@ -40,7 +40,7 @@ export default function ExpertiseComponent() {
               Логистика
             </h3>
             <p
-              style={{ maxWidth: "577px", width: "100%" }}
+              style={{ maxWidth: '577px', width: '100%' }}
               className="text-[#030303] text-[20px] pb-[42px]"
             >
               Консалтинговые услуги в области транспорта и логистики. Помощь в
@@ -57,7 +57,7 @@ export default function ExpertiseComponent() {
               ESG
             </h3>
             <p
-              style={{ maxWidth: "479px", width: "100%" }}
+              style={{ maxWidth: '479px', width: '100%' }}
               className="text-[#030303] text-[20px] pb-[42px]"
             >
               Поддержка развития и трансформации бизнеса в направлении
@@ -72,5 +72,5 @@ export default function ExpertiseComponent() {
         </div>
       </div>
     </>
-  );
+  )
 }
