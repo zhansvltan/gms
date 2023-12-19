@@ -11,6 +11,7 @@ module.exports = {
     './src/components/Project.jsx',
     './src/components/Partner.jsx',
     './src/components/Consultation.jsx',
+    './src/Contact/Contact.jsx',
     './src/Homepage/HomePage.jsx',
     './src/App.js',
   ],

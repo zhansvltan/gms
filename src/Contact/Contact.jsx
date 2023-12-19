@@ -62,16 +62,7 @@ const Contact = () => {
         </div>
       </div>
       <img
-        style={{
-          marginTop: '93px',
-          borderRadius: '24px',
-          maxWidth: '1232px',
-          width: '100%',
-          backgroundPosition: 'center center',
-          backgroundSize: 'cover',
-          backgroundRepeat: 'no-repeat',
-          height: '240px',
-        }}
+        className="h-[240px] w-[1232px] rounded-3xl mobile:mt-[190px] object-cover no-repeat laptop: mt-[93px]"
         src="/image.png"
         alt=""
       />
