@@ -11,7 +11,7 @@ export default function AboutUsComponent() {
         className="text-[#5d5d5b] font-[500] 
                 mobile:text-[24px] 
                 tablet:text-[36px] 
-                laptop:text-[42px] "
+                laptop:text-[42px]"
       >
         О нас
       </h1>
