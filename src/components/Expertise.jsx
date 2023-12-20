@@ -43,7 +43,7 @@ export default function ExpertiseComponent() {
               className="leading-tight text-[#000000] bg-[#c3f2cb] rounded-3xl font-[500] 
                 mobile:w-[105px] mobile:h-[25px] mobile:text-[8px] mobile:mb-1
                 tablet:w-[210px] tablet:h-[40px] tablet:text-[12px]
-                laptop:w-[316px] laptop:h-[45px] laptop:text-[16px] laptop:mb-0"
+                laptop:w-[316px] laptop:h-[45px] laptop:text-[16px] laptop:mb-[60px]"
             >
               Узнать подробнее
             </button>
