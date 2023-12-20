@@ -3,6 +3,7 @@ import React from 'react'
 export default function AboutUsComponent() {
   return (
     <div
+      id="about"
       className="mobile:pl-[30px] mobile:pt-[20px] mobile:pb-4
                 tablet:pl-[45px] tablet:pt-[30px] tablet:pb-12
                 laptop:pl-[55px] laptop:pt-[38px] laptop:pb-16"

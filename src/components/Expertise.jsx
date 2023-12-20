@@ -1,8 +1,20 @@
 import React from 'react'
 
 export default function ExpertiseComponent() {
+  const handleScrollClick = () => {
+    // Replace 'targetComponentId' with the actual ID of the target component
+    const targetComponent = document.getElementById('contact')
+
+    if (targetComponent) {
+      const yOffset =
+        targetComponent.getBoundingClientRect().top + window.scrollY
+
+      // Scroll to the target component
+      window.scrollTo({ top: yOffset, behavior: 'smooth' })
+    }
+  }
   return (
-    <>
+    <div id="services">
       <h2
         className="bg-white text-[#5d5d5b] font-[500]
                     mobile:text-[24px] mobile:pl-[30px] mobile:pt-[20px] mobile:pb-6
@@ -40,6 +52,7 @@ export default function ExpertiseComponent() {
               от формирования бизнес-идеи до реализации проекта.
             </p>
             <button
+              onClick={handleScrollClick}
               className="leading-tight text-[#000000] bg-[#c3f2cb] rounded-3xl font-[500] 
                 mobile:w-[105px] mobile:h-[25px] mobile:text-[8px] mobile:mb-1
                 tablet:w-[210px] tablet:h-[40px] tablet:text-[12px]
@@ -94,6 +107,7 @@ export default function ExpertiseComponent() {
               реализации крупных логистических проектов.
             </p>
             <button
+              onClick={handleScrollClick}
               className="leading-tight text-[#000000] bg-[#c3f2cb] rounded-3xl font-[500]
                       mobile:w-[105px] mobile:h-[25px] mobile:text-[8px] mobile:ml-[75px] mobile: mb-1
                       tablet:w-[210px] tablet:h-[40px] tablet:text-[12px]
@@ -139,6 +153,7 @@ export default function ExpertiseComponent() {
               устойчивому развитию.
             </p>
             <button
+              onClick={handleScrollClick}
               className="leading-tight text-[#000000] bg-[#c3f2cb] rounded-3xl font-[500] 
                       mobile:w-[105px] mobile:h-[25px] mobile:text-[8px] mobile:mb-1
                       tablet:w-[210px] tablet:h-[40px] tablet:text-[12px]
@@ -156,6 +171,6 @@ export default function ExpertiseComponent() {
           />
         </div>
       </div>
-    </>
+    </div>
   )
 }

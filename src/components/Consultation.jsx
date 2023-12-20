@@ -1,6 +1,18 @@
 import React from 'react'
 
 export default function ConsultationComponent() {
+  const handleScrollClick = () => {
+    // Replace 'targetComponentId' with the actual ID of the target component
+    const targetComponent = document.getElementById('contact')
+
+    if (targetComponent) {
+      const yOffset =
+        targetComponent.getBoundingClientRect().top + window.scrollY
+
+      // Scroll to the target component
+      window.scrollTo({ top: yOffset, behavior: 'smooth' })
+    }
+  }
   return (
     <div className="flex justify-center bg-[#c3f2cb]">
       <div className="flex-col">
@@ -27,6 +39,7 @@ export default function ConsultationComponent() {
         laptop:gap-[31px] laptop:pb-[85px]"
         >
           <button
+            onClick={handleScrollClick}
             className="leading-tight text-[#030303] bg-[#ffffff] rounded-[24px] font-[600] 
           mobile:text-[10px] mobile:w-[156px] mobile:h-[36px]
           tablet:text-[14px] tablet:w-[183px] tablet:h-[45px]
@@ -35,6 +48,7 @@ export default function ConsultationComponent() {
             Оставить заявку
           </button>
           <button
+            onClick={handleScrollClick}
             className="leading-tight text-[#030303] bg-[#ffffff] rounded-[24px] font-[600] 
                   mobile:text-[10px] mobile:w-[156px] mobile:h-[36px]
                   tablet:text-[14px] tablet:w-[183px] tablet:h-[45px]
