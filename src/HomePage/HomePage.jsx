@@ -11,7 +11,7 @@ import Contact from '../Contact/Contact'
 
 const HomePage = () => {
   return (
-    <div className="bg-[#f0f0f0]">
+    <div>
       <Header />
       <ImageComponent />
       <AboutUsComponent />
