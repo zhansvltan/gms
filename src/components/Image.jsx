@@ -1,7 +1,20 @@
 import React from 'react'
+
 export default function ImageComponent() {
+  const handleScrollClick = () => {
+    // Replace 'targetComponentId' with the actual ID of the target component
+    const targetComponent = document.getElementById('contact')
+
+    if (targetComponent) {
+      const yOffset =
+        targetComponent.getBoundingClientRect().top + window.scrollY
+
+      // Scroll to the target component
+      window.scrollTo({ top: yOffset, behavior: 'smooth' })
+    }
+  }
   return (
-    <>
+    <div id="main">
       <img
         src="card1.svg"
         alt="background"
@@ -34,6 +47,7 @@ export default function ImageComponent() {
           расположенная в Астане в юрисдикции МФЦА
         </p>
         <button
+          onClick={handleScrollClick}
           className="leading-tight text-[#000000] bg-[#c3f2cb] rounded-3xl font-[500] 
                       mobile:w-[105px] mobile:h-[25px] mobile:text-[8px]
                       tablet:w-[210px] tablet:h-[40px] tablet:text-[12px]
@@ -42,6 +56,6 @@ export default function ImageComponent() {
           Оставить заявку
         </button>
       </div>
-    </>
+    </div>
   )
 }

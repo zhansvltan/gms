@@ -24,7 +24,10 @@ const ProjectComponent = () => {
   ]
 
   return (
-    <div className="mobile:pb-[96px] tablet:pb-[120px] laptop:pb-[144px] bg-white ">
+    <div
+      className="mobile:pb-[96px] tablet:pb-[120px] laptop:pb-[144px] bg-white "
+      id="projects"
+    >
       <div
         className="mobile:pl-[30px] mobile:pt-[20px]
                 tablet:pl-[45px] tablet:pt-[30px]
