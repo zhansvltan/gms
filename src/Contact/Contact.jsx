@@ -1,11 +1,13 @@
 import React from 'react'
 import style from './Contact.module.scss'
-
+import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet'
+import 'leaflet/dist/leaflet.css'
 const Contact = () => {
+  const position = [51.505, -0.09]
   return (
-    <div className={style.wrapper} id="contact">
-      <h1>Связаться с нами</h1>
-      <div className={style.wrapper__contact}>
+    <div className={style.wrapper}>
+      <h1 className={style.heading}>Связаться с нами</h1>
+      <div className={style.contactSection}>
         <div className={style.contactForm}>
           <input
             className={style.inputField}
@@ -24,48 +26,33 @@ const Contact = () => {
           <button className={style.submitButton}>Отправить</button>
         </div>
         <div className={style.contactInfoContainer}>
-          <h2>Контактная информация</h2>
+          <h2 className={style.infoHeading}>Контактная информация</h2>
           <span>Адрес</span>
-          <p
-            style={{
-              margin: '0px',
-            }}
-          >
-            Мангилик Ел 55/19
-          </p>
-          <p
-            style={{
-              marginBottom: '24px',
-            }}
-          >
-            {' '}
-            МФЦА, офис 219
-          </p>
+          <p>Мангилик Ел 55/19</p>
+          <p>МФЦА, офис 219</p>
           <span>Телефоны</span>
-          <span
-            style={{
-              marginBottom: '24px',
-            }}
-          >
-            +7 123 456 7890
-          </span>
-          <span
-            style={{
-              marginBotton: '12px',
-            }}
-          >
-            Email
-          </span>
+          <span>+7 123 456 7890</span>
+          <span>Email</span>
           <span>
             <strong>info@infraeconomy.kz</strong>
           </span>
         </div>
       </div>
-      <img
-        className="h-[240px] w-[1232px] rounded-3xl mobile:mt-[190px] object-cover no-repeat laptop: mt-[93px]"
+      {/* <img
+        className={`${style.image} ${style.responsiveImage}`}
         src="/image.png"
         alt=""
-      />
+      /> */}
+      <MapContainer
+        center={[51.505, -0.09]}
+        zoom={13}
+        style={{ height: '400px', width: '100%' }}
+      >
+        <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
+        <Marker position={[51.505, -0.09]}>
+          <Popup>Here is marker</Popup>
+        </Marker>
+      </MapContainer>
     </div>
   )
 }
