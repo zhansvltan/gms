@@ -5,7 +5,7 @@ import 'leaflet/dist/leaflet.css'
 const Contact = () => {
   const position = [51.505, -0.09]
   return (
-    <div className={style.wrapper}>
+    <div className={style.wrapper} id="contact">
       <h1 className={style.heading}>Связаться с нами</h1>
       <div className={style.contactSection}>
         <div className={style.contactForm}>
