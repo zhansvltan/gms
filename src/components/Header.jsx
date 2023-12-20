@@ -61,8 +61,8 @@ export default function Header() {
         {/* Navigation Links */}
         <div
           className={`flex justify-between  items-center
-          mobile:absolute mobile:z-10 mobile:gap-[10px] mobile:py-[5px] mobile:top-[40vh] mobile:left-[0px] mobile:rounded-md mobile:w-[100%] mobile:bg-black mobile:bg-opacity-50
-          tablet:absolute tablet:gap-[20px] tablet:py-[8px] tablet:top-[40vh] tablet:left-[0px] tablet:rounded-md tablet:w-[100%] tablet:bg-black tablet:bg-opacity-50
+          mobile:absolute mobile:z-10 mobile:gap-[10px] mobile:py-[5px] mobile:top-[5.7vh] mobile:left-[0px] mobile:rounded-md mobile:w-[100%] mobile:bg-black mobile:bg-opacity-70
+          tablet:absolute tablet:gap-[20px] tablet:py-[8px] tablet:top-[5.7vh] tablet:left-[0px] tablet:rounded-md tablet:w-[100%] tablet:bg-black tablet:bg-opacity-70
           laptop:static laptop:flex-row laptop:gap-[150px] laptop:py-[0px] laptop:bg-transparent ${
             isMenuOpen ? 'flex-col' : 'hidden laptop:flex'
           }`}
