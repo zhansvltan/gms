@@ -18,7 +18,7 @@ export default function ImageComponent() {
       <img
         src="card1.svg"
         alt="background"
-        className="rounded-none brightness-50 pt-2 w-[100%] object-cover
+        className="rounded-none brightness-50 w-[100%] object-cover
                     mobile:h-[400px]
                     tablet:h-[500px]
                     laptop:h-[560px]"
