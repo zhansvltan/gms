@@ -27,7 +27,7 @@ export default function Header() {
                       mobile:px-[30px] mobile:py-[5px]
                       tablet:px-[50px] tablet:py-[8px]
                       laptop:px-[70px] laptop:py-[10px]
-                      mobile:h-[90px] tablet:h-[107px] laptop:h-[107px]  rounded-t-3xl bg-white shadow-[0px_2px_10px_rgba(3,3,3,0.1)]`}
+                      mobile:h-[90px] tablet:h-[117px] laptop:h-[107px]  rounded-t-3xl bg-white shadow-[0px_2px_10px_rgba(3,3,3,0.1)]`}
       >
         <img
           src="logo.svg"
@@ -37,7 +37,7 @@ export default function Header() {
 
         {/* Burger Menu Button */}
         <button
-          className="absolute mobile:text-[40px] mobile:top-[0px] mobile:right-[0px]
+          className="absolute mobile:text-[40px] mobile:top-[0px] mobile:right-[2vw]
           tablet:text-[60px] tablet:top-[0px] tablet:right-[0px]  
           laptop:hidden focus:outline-none"
           onClick={() => setMenuOpen(!isMenuOpen)}
@@ -48,9 +48,9 @@ export default function Header() {
         {/* Navigation Links */}
         <div
           className={`flex justify-between  items-center
-          mobile:absolute mobile:gap-[5px] mobile:py-[5px] mobile:top-[0px] mobile:left-1/2 
-          tablet:gap-[10px] tablet:py-[10px] 
-          laptop:static laptop:flex-row laptop:gap-[150px] laptop:py-[0px] ${
+          mobile:absolute mobile:gap-[5px] mobile:py-[5px] mobile:top-[0px] mobile:right-[10vw] mobile:bg-slate-100 mobile:rounded-md
+          tablet:absolute tablet:gap-[5px] tablet:py-[8px] tablet:top-[0px] tablet:right-[10vw] tablet:bg-slate-100 tablet:rounded-md
+          laptop:static laptop:flex-row laptop:gap-[150px] laptop:py-[0px] laptop:bg-transparent ${
             isMenuOpen ? 'flex-col' : 'hidden laptop:flex'
           }`}
         >
