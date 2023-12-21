@@ -15,38 +15,35 @@ export default function ExpertiseComponent() {
   }
   return (
     <div id="services">
-      <h2
-        className="bg-white text-[#5d5d5b] font-[500]
-                    mobile:text-[24px] mobile:pl-[7vw] mobile:pt-[2vh] mobile:pb-2
-                    tablet:text-[36px] tablet:pl-[45px] tablet:pt-[30px] tablet:pb-8
-                    laptop:text-[42px] laptop:pl-[55px] laptop:pt-[38px] laptop:pb-12"
-      >
+      <h2 className="bg-white text-[#5d5d5b] font-[500] mobile:text-[24px] tablet:text-[36px] laptop:text-[42px]">
         Наша экспертиза
       </h2>
-      <div className="pb-1">
+      <div className="mobile:text-center laptop:text-start">
         <div
           id="infrastructure"
-          className="flex justify-between mobile:flex-col laptop:flex-row"
+          className="flex justify-evenly 
+          mobile:flex-col mobile:items-center
+          laptop:flex-row"
         >
           <div
-            className="flex-col justify-center  
-            mobile:pt-[2vh] mobile:pl-[9vw]
-            tablet:pt-[60px] tablet:pl-[90px]
-            laptop:pt-[70px] laptop:pl-[101px]"
+            className="flex-col
+            mobile:items-center mobile:flex mobile:space-y-1
+            laptop:space-y-4
+            laptop:block"
           >
             <h3
               className="text-[#030303] font-[600]
-                mobile:text-[18px] mobile:pb-[4px]
-                tablet:text-[30px] tablet:pb-[6px]
-                laptop:text-[42px] laptop:pb-[8px]"
+                mobile:text-[18px]
+                tablet:text-[30px]
+                laptop:text-[42px]"
             >
               Инфраструктура
             </h3>
             <p
               className="text-[#030303] max-w-[454px] 
-            mobile:w-[90%] mobile:text-[12px] mobile:pb-4
-            tablet:w-[75%] tablet:text-[16px] tablet:pb-8
-            laptop:w-[100%] laptop:text-[20px] laptop:pb-12"
+            mobile:w-[90%] mobile:text-[12px] 
+            tablet:w-[90%] tablet:text-[16px]
+            laptop:w-[100%] laptop:text-[20px]"
             >
               Консалтинг и сопровождение инфраструктурных проектов в Казахстане
               от формирования бизнес-идеи до реализации проекта.
@@ -54,9 +51,9 @@ export default function ExpertiseComponent() {
             <button
               onClick={handleScrollClick}
               className="leading-tight text-[#000000] bg-[#c3f2cb] rounded-3xl font-[500] 
-                mobile:w-[105px] mobile:h-[25px] mobile:text-[8px] mobile:mb-1
+                mobile:w-[105px] mobile:h-[25px] mobile:text-[8px]
                 tablet:w-[210px] tablet:h-[40px] tablet:text-[12px]
-                laptop:w-[316px] laptop:h-[45px] laptop:text-[16px] laptop:mb-[60px]"
+                laptop:w-[316px] laptop:h-[45px] laptop:text-[16px]"
             >
               Узнать подробнее
             </button>
@@ -65,13 +62,15 @@ export default function ExpertiseComponent() {
             src="infra.svg"
             alt="Infrastructure"
             className="
-            laptop:w-[50%] object-cover"
+            laptop:w-[42%] object-cover"
           />
         </div>
 
         <div
           id="logistics"
-          className="flex justify-between mobile:flex-col laptop:flex-row"
+          className="flex justify-evenly 
+          mobile:flex-col mobile:items-center 
+          laptop:flex-row"
         >
           <img
             src="logistics.svg"
@@ -79,28 +78,28 @@ export default function ExpertiseComponent() {
             className="
                   hidden laptop:block
                   tablet:w-[50%] tablet:object-cover
-                  laptop:w-[50%] laptop:object-cover"
+                  laptop:w-[42%] laptop:object-cover"
           />
           <div
-            className="flex-col justify-center 
-                mobile:pt-[40px]
-                tablet:pt-[60px]
-                laptop:pt-[70px]"
+            className="flex-col justify-center
+            mobile:items-center mobile:flex mobile:space-y-1
+            laptop:space-y-4
+            laptop:block"
           >
             <h3
               className="text-[#030303] font-[600]
-                mobile:text-[24px] mobile:pb-[4px]  mobile:pt-[40px] mobile:pl-[75px]
-                tablet:text-[36px] tablet:pb-[6px]
-                laptop:pt-[0px] laptop:pl-[0px] laptop:text-[42px] laptop:pb-[8px]
+                mobile:text-[24px] 
+                tablet:text-[36px]
+                laptop:text-[42px]
                 "
             >
               Логистика
             </h3>
             <p
               className="text-[#030303] max-w-[577px] 
-                mobile:w-[60%] mobile:text-[12px] mobile:pb-4 mobile:pt-[0px] mobile:pl-[75px]
-                tablet:w-[75%] tablet:text-[16px] tablet:pb-8
-                laptop:w-[100%] laptop:text-[20px] laptop:pb-12 laptop:pt-[0px] laptop:pl-[0px]
+              mobile:w-[90%] mobile:text-[12px] 
+              tablet:w-[75%] tablet:text-[16px]
+              laptop:w-[100%] laptop:text-[20px]
             "
             >
               Консалтинговые услуги в области транспорта и логистики. Помощь в
@@ -108,10 +107,10 @@ export default function ExpertiseComponent() {
             </p>
             <button
               onClick={handleScrollClick}
-              className="leading-tight text-[#000000] bg-[#c3f2cb] rounded-3xl font-[500]
-                      mobile:w-[105px] mobile:h-[25px] mobile:text-[8px] mobile:ml-[75px] mobile: mb-1
-                      tablet:w-[210px] tablet:h-[40px] tablet:text-[12px]
-                      laptop:w-[316px] laptop:h-[45px] laptop:text-[16px] laptop:ml-[0px] laptop: mb-0"
+              className="leading-tight text-[#000000] bg-[#c3f2cb] rounded-3xl font-[500] 
+              mobile:h-[25px] mobile:text-[8px] mobile:w-[28vw]
+              tablet:h-[40px] tablet:text-[12px]
+              laptop:h-[45px] laptop:text-[16px] laptop:w-[22vw]"
             >
               Узнать подробнее
             </button>
@@ -119,7 +118,6 @@ export default function ExpertiseComponent() {
               src="logistics.svg"
               alt="Logistics"
               className="
-                mobile:w-[100%] mobile:object-cover
                 laptop:hidden"
             />
           </div>
@@ -127,26 +125,28 @@ export default function ExpertiseComponent() {
 
         <div
           id="esg"
-          className="flex justify-between mobile:flex-col laptop:flex-row"
+          className="flex justify-evenly 
+          mobile:flex-col mobile:items-center 
+          laptop:flex-row"
         >
           <div
-            className="flex-col justify-center 
-            mobile:pt-[40px] mobile:pl-[75px]
-            laptop:pt-[70px] laptop:pl-[101px]"
+            className="flex-col justify-center
+             mobile:items-center mobile:flex mobile:space-y-1
+             laptop:space-y-4 laptop:block"
           >
             <h3
               className="text-[#030303] font-[600] 
-                mobile:text-[24px] mobile:pb-[4px]
-                tablet:text-[36px] tablet:pb-[6px]
-                laptop:text-[42px] laptop:pb-[8px]"
+                mobile:text-[24px] 
+                tablet:text-[36px] 
+                laptop:text-[42px]"
             >
               ESG
             </h3>
             <p
-              className="text-[#030303] max-w-[479px] 
-            mobile:w-[60%] mobile:text-[12px] mobile:pb-4
-            tablet:w-[75%] tablet:text-[16px] tablet:pb-8
-            laptop:w-[100%] laptop:text-[20px] laptop:pb-12"
+              className="text-[#030303] max-w-[454px] 
+              mobile:w-[90%] mobile:text-[12px] 
+              tablet:w-[75%] tablet:text-[16px]
+              laptop:w-[100%] laptop:text-[20px]"
             >
               Поддержка развития и трансформации бизнеса в направлении
               ответственного отношения к экологии, социальным направлениям и
@@ -155,9 +155,9 @@ export default function ExpertiseComponent() {
             <button
               onClick={handleScrollClick}
               className="leading-tight text-[#000000] bg-[#c3f2cb] rounded-3xl font-[500] 
-                      mobile:w-[105px] mobile:h-[25px] mobile:text-[8px] mobile:mb-1
+                      mobile:w-[105px] mobile:h-[25px] mobile:text-[8px] 
                       tablet:w-[210px] tablet:h-[40px] tablet:text-[12px]
-                      laptop:w-[316px] laptop:h-[45px] laptop:text-[16px] laptop:mb-0"
+                      laptop:w-[316px] laptop:h-[45px] laptop:text-[16px]"
             >
               Узнать подробнее
             </button>
@@ -166,7 +166,7 @@ export default function ExpertiseComponent() {
             src="esg.svg"
             alt="ESG"
             className="
-            laptop:w-[50%] object-cover pb-4
+            laptop:w-[42%] object-cover
             "
           />
         </div>
