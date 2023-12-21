@@ -19,29 +19,29 @@ export default function ImageComponent() {
         src="card1.svg"
         alt="background"
         className="rounded-none brightness-50  w-[100%] object-cover
-                    mobile:h-[35vh]
-                    tablet:h-[500px]
+                    mobile:h-[300px]
+                    tablet:h-[400px]
                     laptop:h-[560px]"
       />
       <div
-        className="absolute flex-col justify-between 
-                    mobile:left-[8vw] mobile:top-[10vh] mobile:space-y-6
-                    tablet:left-[45px] tablet:top-[150px] tablet:space-y-8
-                    laptop:left-[55px] laptop:top-[170px] laptop:space-y-10 "
+        className="absolute flex-col justify-between items-start pl-4
+                  mobile:max-w-[65%]  mobile:top-[85px] mobile:space-y-4
+                  tablet:top-[150px] tablet:space-y-6
+                  laptop:max-w-[45%]  laptop:top-[170px] laptop:space-y-10 "
       >
         <h2
-          className="text-white font-[500] max-w-[646px]
-                      mobile:text-[24px] mobile:w-[90%] 
-                      tablet:text-[36px] tablet:w-[90%] 
-                      laptop:text-[52px] laptop:w-[100%]"
+          className="text-white font-[500]
+                      mobile:text-[26px] 
+                      tablet:text-[36px] 
+                      laptop:text-[52px]"
         >
           Формируем будущее инфраструктуры
         </h2>
         <p
-          className="text-white font-[100] max-w-[630px]
-                    mobile:text-[12px] mobile:w-[70%] 
-                    tablet:text-[18px] tablet:w-[90%] 
-                    laptop:text-[24px] laptop:w-[100%]"
+          className="text-white font-[100]
+                    mobile:text-[12px] 
+                    tablet:text-[18px] 
+                    laptop:text-[24px]"
         >
           Частная консалтинговая компания, работающая в формате фабрики мысли,
           расположенная в Астане в юрисдикции МФЦА
@@ -49,9 +49,9 @@ export default function ImageComponent() {
         <button
           onClick={handleScrollClick}
           className="leading-tight text-[#000000] bg-[#c3f2cb] rounded-3xl font-[500] 
-                      mobile:w-[105px] mobile:h-[25px] mobile:text-[8px]
-                      tablet:w-[210px] tablet:h-[40px] tablet:text-[12px]
-                      laptop:w-[316px] laptop:h-[45px] laptop:text-[16px]"
+                      mobile:h-[25px] mobile:text-[8px] mobile:w-[28vw]
+                      tablet:h-[40px] tablet:text-[12px]
+                      laptop:h-[45px] laptop:text-[16px] laptop:w-[22vw]"
         >
           Оставить заявку
         </button>
