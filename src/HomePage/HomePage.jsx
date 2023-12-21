@@ -13,14 +13,16 @@ const HomePage = () => {
   return (
     <div className="overflow-hidden">
       <Header />
-      <ImageComponent />
-      <AboutUsComponent />
-      <GroupsComponent />
-      <ExpertiseComponent />
-      <ProjectComponent />
-      <PartnerComponent />
-      <ConsultationComponent />
-      <Contact />
+      <div className="mobile: px-[2vw] laptop:px-0">
+        <ImageComponent />
+        <AboutUsComponent />
+        <GroupsComponent />
+        <ExpertiseComponent />
+        <ProjectComponent />
+        <PartnerComponent />
+        <ConsultationComponent />
+        <Contact />
+      </div>
     </div>
   )
 }

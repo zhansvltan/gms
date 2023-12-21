@@ -4,13 +4,13 @@ export default function AboutUsComponent() {
   return (
     <div
       id="about"
-      className="mobile:pl-[30px] mobile:pt-[20px] mobile:pb-4
+      className="mobile:pl-[0px] mobile:pt-[20px] mobile:pb-4
                 tablet:pl-[45px] tablet:pt-[30px] tablet:pb-12
                 laptop:pl-[55px] laptop:pt-[38px] laptop:pb-16"
     >
       <h1
         className="text-[#5d5d5b] font-[500] 
-                mobile:text-[24px] 
+                mobile:text-[24px] mobile:pl-[7vw]
                 tablet:text-[36px] 
                 laptop:text-[42px]"
       >
@@ -26,16 +26,16 @@ export default function AboutUsComponent() {
           src="expo.svg"
           alt="Expo"
           className="
-          mobile:w-[60%] mobile:h-[60%] mobile:pt-2
+          mobile:w-[100%] mobile:h-[100%] mobile:pt-2 mobile:brightness-50
           tablet:w-[75%] tablet:h-[75%] tablet:pt-3
-          laptop:w-[100%] laptop:h-[100%] laptop:pt-4
+          laptop:w-[100%] laptop:h-[100%] laptop:pt-4 laptop:brightness-100
           m-0"
         />
         <p
           className="max-w-[603px] text-[#030303] w-[100%] 
-          mobile:text-[14px]
+          mobile:text-[14px] mobile:absolute mobile:text-white mobile:pl-[2vw]
           tablet:text-[22px]
-          laptop:text-[26px]
+          laptop:text-[26px] laptop:sticky laptop:text-[#030303]
           m-0"
         >
           <strong>Green Mobility Solutions (IEC Research)</strong> оказывает
