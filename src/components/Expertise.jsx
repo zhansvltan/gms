@@ -15,7 +15,7 @@ export default function ExpertiseComponent() {
   }
   return (
     <div id="services">
-      <h2 className="bg-white text-[#5d5d5b] font-[500] mobile:text-[24px] tablet:text-[36px] laptop:text-[42px]">
+      <h2 className="bg-white text-[#5d5d5b] font-[500] mt-4 mb-8 mobile:text-[24px] tablet:text-[36px] laptop:text-[42px]">
         Наша экспертиза
       </h2>
       <div className="mobile:text-center laptop:text-start">
@@ -27,8 +27,8 @@ export default function ExpertiseComponent() {
         >
           <div
             className="flex-col
-            mobile:items-center mobile:flex mobile:space-y-1
-            laptop:space-y-4
+            mobile:items-center mobile:flex mobile:space-y-3
+            laptop:space-y-6
             laptop:block"
           >
             <h3
@@ -50,7 +50,7 @@ export default function ExpertiseComponent() {
             </p>
             <button
               onClick={handleScrollClick}
-              className="leading-tight text-[#000000] bg-[#c3f2cb] rounded-3xl font-[500] 
+              className="leading-tight text-[#000000] bg-[#c3f2cb] rounded-3xl font-[500]
                 mobile:w-[105px] mobile:h-[25px] mobile:text-[8px]
                 tablet:w-[210px] tablet:h-[40px] tablet:text-[12px]
                 laptop:w-[316px] laptop:h-[45px] laptop:text-[16px]"
@@ -61,7 +61,7 @@ export default function ExpertiseComponent() {
           <img
             src="infra.svg"
             alt="Infrastructure"
-            className="
+            className="mobile:my-2 laptop:my-0
             laptop:w-[42%] object-cover"
           />
         </div>
@@ -75,15 +75,15 @@ export default function ExpertiseComponent() {
           <img
             src="logistics.svg"
             alt="Logistics"
-            className="
+            className="mobile:my-2 laptop:my-0
                   hidden laptop:block
                   tablet:w-[50%] tablet:object-cover
                   laptop:w-[42%] laptop:object-cover"
           />
           <div
-            className="flex-col justify-center
-            mobile:items-center mobile:flex mobile:space-y-1
-            laptop:space-y-4
+            className="flex-col
+            mobile:items-center mobile:flex mobile:space-y-3 
+            laptop:space-y-6
             laptop:block"
           >
             <h3
@@ -117,7 +117,7 @@ export default function ExpertiseComponent() {
             <img
               src="logistics.svg"
               alt="Logistics"
-              className="
+              className="mobile:my-2 laptop:my-0
                 laptop:hidden"
             />
           </div>
@@ -131,8 +131,8 @@ export default function ExpertiseComponent() {
         >
           <div
             className="flex-col justify-center
-             mobile:items-center mobile:flex mobile:space-y-1
-             laptop:space-y-4 laptop:block"
+             mobile:items-center mobile:flex mobile:space-y-3 
+             laptop:space-y-6 laptop:block"
           >
             <h3
               className="text-[#030303] font-[600] 
@@ -165,7 +165,7 @@ export default function ExpertiseComponent() {
           <img
             src="esg.svg"
             alt="ESG"
-            className="
+            className="mobile:my-2 laptop:my-0
             laptop:w-[42%] object-cover
             "
           />

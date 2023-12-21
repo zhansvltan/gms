@@ -13,8 +13,8 @@ const HomePage = () => {
   return (
     <div className="overflow-hidden">
       <Header />
-      <div>
-        <ImageComponent />
+      <ImageComponent />
+      <div className="mobile:px-[20px] laptop:px-[32px]">
         <AboutUsComponent />
         <GroupsComponent />
         <ExpertiseComponent />

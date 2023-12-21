@@ -4,7 +4,7 @@ export default function AboutUsComponent() {
   return (
     <div id="about">
       <h1
-        className="text-[#5d5d5b] font-[500] 
+        className="text-[#5d5d5b] font-[500] mt-8
                 mobile:text-[24px]
                 tablet:text-[36px] 
                 laptop:text-[42px]"
@@ -12,7 +12,7 @@ export default function AboutUsComponent() {
         О нас
       </h1>
       <div
-        className="flex items-center
+        className="flex items-center p-6
       mobile:flex-col mobile:gap-y-2
       tablet:flex-col tablet:gap-y-4
       laptop:flex-row laptop:justify-between laptop:gap-[41px]"
@@ -21,8 +21,8 @@ export default function AboutUsComponent() {
           src="expo.svg"
           alt="Expo"
           className="max-w-[60%] 
-          mobile:w-[70%] mobile:pt-2
-          laptop:w-[49%] laptop:pt-4
+          mobile:w-[70%]
+          laptop:w-[60%]
           m-0"
         />
         <p
