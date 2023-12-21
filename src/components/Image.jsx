@@ -25,8 +25,8 @@ export default function ImageComponent() {
       />
       <div
         className="absolute flex-col justify-between items-start pl-4
-                  mobile:max-w-[65%]  mobile:top-[85px] mobile:space-y-4
-                  tablet:top-[150px] tablet:space-y-6
+                  mobile:max-w-[75%]  mobile:top-[85px] mobile:space-y-4
+                  tablet:max-w-[60%]  tablet:top-[150px] tablet:space-y-6
                   laptop:max-w-[45%]  laptop:top-[170px] laptop:space-y-10 "
       >
         <h2
