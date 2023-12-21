@@ -27,7 +27,7 @@ const ProjectComponent = () => {
     <div className="bg-white " id="projects">
       <div>
         <h2
-          className="font-[500] text-[#5d5d5b]
+          className="font-[500] text-[#5d5d5b] my-8
                 mobile:text-[24px] 
                 tablet:text-[36px] 
                 laptop:text-[42px]"
@@ -35,7 +35,11 @@ const ProjectComponent = () => {
           Наши реализованные проекты
         </h2>
       </div>
-      <div className="flex justify-around mobile:flex-col space-y-3 laptop:flex-row">
+      <div
+        className="flex justify-around 
+      mobile:flex-col mobile:space-y-3 mobile:items-center
+      laptop:flex-row"
+      >
         {cardsData.map((card, index) => (
           <Card key={index} {...card} />
         ))}

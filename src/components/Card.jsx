@@ -4,41 +4,33 @@ const Card = ({ imageSrc, name, description, logo }) => {
   return (
     <div
       className="rounded-[24px] overflow-hidden shadow-[0px_2px_10px_rgba(3,3,3,0.1)]
-      h-[481px]
-      mobile:h-[60%]
-      tablet:h-[150%] tablet:ml-[50px] tablet:mr-[50px]
-      laptop:h-[100%]"
+    mobile:w-[70%]
+    tablet:w-[50%]
+    laptop:w-[21.5%]"
     >
-      <img
-        className="w-full 
-        mobile:pb-[15px] 
-        tablet:pb-[20px] 
-        laptop:pb-[25px]"
-        src={imageSrc}
-        alt={name}
-      />
-      <div className="mobile:pl-[15px] tablet:pl-[20px] laptop:pl-[25px]">
+      <img className="w-full" src={imageSrc} alt={name} />
+      <div className="p-4">
         <h3
           className="text-[#030303] 
-        mobile:text-[16px] mobile:pb-[12px] 
-        tablet:text-[20px] tablet:pb-[16px] 
-        laptop:text-[24px] laptop: pb-[20px]"
+        mobile:text-[16px]  
+        tablet:text-[20px] 
+        laptop:text-[24px]"
         >
           {name}
         </h3>
         <p
-          className="text-[#030303] 
-        mobile:h-[96px]  mobile:text-[12px] 
-        tablet:h-[144px] tablet:text-[16px] 
-        laptop:h-[144px] laptop:text-[20px]"
+          className="text-[#030303] h-[20vh]
+          mobile:text-[12px] 
+          tablet:text-[16px] 
+          laptop:text-[20px]"
         >
           {description}
         </p>
         <p
           className="text-[#030303]  
-        mobile:text-[12px] mobile:pb-[12px] 
-        tablet:text-[16px] tablet:pb-[16px]  
-        laptop:text-[20px] laptop:pb-[20px]"
+        mobile:text-[12px]
+        tablet:text-[16px] 
+        laptop:text-[20px]"
         >
           {logo}
         </p>
