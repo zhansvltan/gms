@@ -15,8 +15,12 @@ export default function PartnerComponent() {
       >
         Наши клиенты и партнеры
       </h2>
-      <div className="flex-col">
-        <div className="flex gap-[50px]">
+      <div
+        className="flex-col 
+      mobile:space-y-8 mobile:p-8 
+      laptop:space-y-16 laptop:p-0"
+      >
+        <div className="flex justify-between">
           <div>
             <img src="lancaster.svg" alt="Lancaster" />
           </div>
