@@ -11,7 +11,7 @@ import Contact from '../Contact/Contact'
 
 const HomePage = () => {
   return (
-    <div>
+    <div className="overflow-hidden">
       <Header />
       <ImageComponent />
       <AboutUsComponent />

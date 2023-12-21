@@ -33,14 +33,17 @@ export default function Header() {
   }
 
   return (
-    <div>
+    <div
+      id="header"
+      className="max-w-[100vw] mobile:h-[64px] tablet:h-[90px] laptop:h-[107px]"
+    >
       {/* Navigation */}
       <nav
         className={`relative flex justify-between gap-[7vw]
                       mobile:px-[30px] mobile:py-[5px]
                       tablet:px-[50px] tablet:py-[8px]
                       laptop:px-[70px] laptop:py-[10px]
-                      mobile:h-[90px] tablet:h-[117px] laptop:h-[107px]  rounded-t-3xl bg-white shadow-[0px_2px_10px_rgba(3,3,3,0.1)]`}
+                      rounded-t-3xl bg-white shadow-[0px_2px_10px_rgba(3,3,3,0.1)]`}
       >
         <img
           src="logo.svg"
@@ -50,54 +53,54 @@ export default function Header() {
 
         {/* Burger Menu Button */}
         <button
-          className="absolute mobile:text-[40px] mobile:top-[0px] mobile:right-[2vw]
-          tablet:text-[60px] tablet:top-[0px] tablet:right-[0px]  
+          className="absolute mobile:top-[2vh] mobile:right-[5vw] mobile:z-10 w-[7vw]
+          tablet:top-[2vh] tablet:right-[5vw]
           laptop:hidden focus:outline-none"
           onClick={() => setMenuOpen(!isMenuOpen)}
         >
-          ☰
+          <img src="burger.svg" />
         </button>
 
         {/* Navigation Links */}
         <div
-          className={`flex justify-between  items-center
-          mobile:absolute mobile:z-10 mobile:gap-[10px] mobile:py-[5px] mobile:top-[5.7vh] mobile:left-[0px] mobile:rounded-md mobile:w-[100%] mobile:bg-black mobile:bg-opacity-70
-          tablet:absolute tablet:gap-[20px] tablet:py-[8px] tablet:top-[5.7vh] tablet:left-[0px] tablet:rounded-md tablet:w-[100%] tablet:bg-black tablet:bg-opacity-70
-          laptop:static laptop:flex-row laptop:gap-[150px] laptop:py-[0px] laptop:bg-transparent ${
+          className={`flex justify-between
+          mobile:absolute mobile:z-10 mobile:gap-[10px] mobile:py-[5px] mobile:top-[6.7vh] mobile:left-[0px] mobile:w-[100%] mobile:bg-white mobile:items-end mobile:pr-[2vw]
+          tablet:absolute tablet:gap-[20px] tablet:py-[8px] tablet:top-[6.7vh] tablet:left-[0px] tablet:w-[100%] tablet:bg-white
+          laptop:static laptop:flex-row laptop:items-center laptop:gap-[150px] laptop:py-[0px] laptop:bg-transparent ${
             isMenuOpen ? 'flex-col' : 'hidden laptop:flex'
           }`}
         >
           <Link
             to="/"
-            className="text-[#030303] mobile:text-[20px] mobile:text-white tablet:text-[28px] tablet:text-white laptop:text-[16px] laptop:text-[#030303]"
+            className="laptop:text-[#030303] mobile:text-[20px] mobile:text-green-800  tablet:text-[28px] laptop:text-[16px]"
             onClick={() => handleScrollClick('about')}
           >
             О нас
           </Link>
           <Link
             to="/"
-            className="laptop:text-[#030303] mobile:text-[20px] mobile:text-white tablet:text-[28px] tablet:text-white laptop:text-[16px]"
+            className="laptop:text-[#030303] mobile:text-[20px] mobile:text-green-800  tablet:text-[28px] laptop:text-[16px]"
             onClick={() => handleScrollClick('services')}
           >
             Услуги
           </Link>
           <Link
             to="/"
-            className="laptop:text-[#030303] mobile:text-[20px] mobile:text-white  tablet:text-[28px] tablet:text-white laptop:text-[16px]"
+            className="laptop:text-[#030303] mobile:text-[20px] mobile:text-green-800  tablet:text-[28px] laptop:text-[16px]"
             onClick={() => handleScrollClick('projects')}
           >
             Проекты
           </Link>
           <Link
             to="/"
-            className="laptop:text-[#030303] mobile:text-[20px] mobile:text-white tablet:text-[28px] tablet:text-white laptop:text-[16px]"
+            className="laptop:text-[#030303] mobile:text-[20px] mobile:text-green-800  tablet:text-[28px] laptop:text-[16px]"
             onClick={() => handleScrollClick('main')}
           >
             Новости
           </Link>
           <Link
             to="/"
-            className="laptop:text-[#030303] mobile:text-[20px] mobile:text-white  tablet:text-[28px] tablet:text-white laptop:text-[16px]"
+            className="laptop:text-[#030303] mobile:text-[20px] mobile:text-green-800  tablet:text-[28px] laptop:text-[16px]"
             onClick={() => handleScrollClick('contact')}
           >
             Контакты

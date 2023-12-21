@@ -18,29 +18,29 @@ export default function ImageComponent() {
       <img
         src="card1.svg"
         alt="background"
-        className="rounded-none brightness-50 w-[100%] object-cover
-                    mobile:h-[400px]
+        className="rounded-none brightness-50  w-[100%] object-cover
+                    mobile:h-[35vh]
                     tablet:h-[500px]
                     laptop:h-[560px]"
       />
       <div
         className="absolute flex-col justify-between 
-                    mobile:left-[30px] mobile:top-[120px] mobile:space-y-6
+                    mobile:left-[8vw] mobile:top-[10vh] mobile:space-y-6
                     tablet:left-[45px] tablet:top-[150px] tablet:space-y-8
                     laptop:left-[55px] laptop:top-[170px] laptop:space-y-10 "
       >
         <h2
           className="text-white font-[500] max-w-[646px]
-                      mobile:text-[24px] mobile:w-[40%] 
-                      tablet:text-[36px] tablet:w-[60%] 
+                      mobile:text-[24px] mobile:w-[90%] 
+                      tablet:text-[36px] tablet:w-[90%] 
                       laptop:text-[52px] laptop:w-[100%]"
         >
           Формируем будущее инфраструктуры
         </h2>
         <p
-          className="text-white font-[100] max-w-[610px]
-                    mobile:text-[12px] mobile:w-[40%] 
-                    tablet:text-[18px] tablet:w-[60%] 
+          className="text-white font-[100] max-w-[630px]
+                    mobile:text-[12px] mobile:w-[70%] 
+                    tablet:text-[18px] tablet:w-[90%] 
                     laptop:text-[24px] laptop:w-[100%]"
         >
           Частная консалтинговая компания, работающая в формате фабрики мысли,

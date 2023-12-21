@@ -17,7 +17,7 @@ export default function ExpertiseComponent() {
     <div id="services">
       <h2
         className="bg-white text-[#5d5d5b] font-[500]
-                    mobile:text-[24px] mobile:pl-[30px] mobile:pt-[20px] mobile:pb-6
+                    mobile:text-[24px] mobile:pl-[7vw] mobile:pt-[2vh] mobile:pb-2
                     tablet:text-[36px] tablet:pl-[45px] tablet:pt-[30px] tablet:pb-8
                     laptop:text-[42px] laptop:pl-[55px] laptop:pt-[38px] laptop:pb-12"
       >
@@ -30,21 +30,21 @@ export default function ExpertiseComponent() {
         >
           <div
             className="flex-col justify-center  
-            mobile:pt-[40px] mobile:pl-[75px]
+            mobile:pt-[2vh] mobile:pl-[9vw]
             tablet:pt-[60px] tablet:pl-[90px]
             laptop:pt-[70px] laptop:pl-[101px]"
           >
             <h3
               className="text-[#030303] font-[600]
-                mobile:text-[24px] mobile:pb-[4px]
-                tablet:text-[36px] tablet:pb-[6px]
+                mobile:text-[18px] mobile:pb-[4px]
+                tablet:text-[30px] tablet:pb-[6px]
                 laptop:text-[42px] laptop:pb-[8px]"
             >
               Инфраструктура
             </h3>
             <p
               className="text-[#030303] max-w-[454px] 
-            mobile:w-[60%] mobile:text-[12px] mobile:pb-4
+            mobile:w-[90%] mobile:text-[12px] mobile:pb-4
             tablet:w-[75%] tablet:text-[16px] tablet:pb-8
             laptop:w-[100%] laptop:text-[20px] laptop:pb-12"
             >

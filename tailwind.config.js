@@ -2,6 +2,7 @@
 module.exports = {
   content: [
     './index.html',
+    './src/HomePage/HomePage.jsx',
     './src/components/Header.jsx',
     './src/components/Image.jsx',
     './src/components/About.jsx',
