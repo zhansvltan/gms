@@ -5,9 +5,9 @@ export default function GroupsComponent() {
     <div className="bg-white">
       <h2
         className="font-[500] text-[#5d5d5b] mb-4
-                  mobile:text-[24px]
+                  mobile:text-[24px] mobile:text-center
                   tablet:text-[36px]
-                  laptop:text-[42px]"
+                  laptop:text-[42px] laptop:text-start"
       >
         О группе компаний
       </h2>

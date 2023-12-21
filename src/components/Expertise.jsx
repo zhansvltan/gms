@@ -15,7 +15,12 @@ export default function ExpertiseComponent() {
   }
   return (
     <div id="services">
-      <h2 className="bg-white text-[#5d5d5b] font-[500] mt-4 mb-8 mobile:text-[24px] tablet:text-[36px] laptop:text-[42px]">
+      <h2
+        className="bg-white text-[#5d5d5b] font-[500] mt-4 mb-8
+       mobile:text-[24px] mobile:text-center 
+       tablet:text-[36px] 
+       laptop:text-[42px] laptop:text-start"
+      >
         Наша экспертиза
       </h2>
       <div className="mobile:text-center laptop:text-start">
@@ -61,7 +66,7 @@ export default function ExpertiseComponent() {
           <img
             src="infra.svg"
             alt="Infrastructure"
-            className="mobile:my-2 laptop:my-0
+            className="mobile:my-2 laptop:my-0 mobile:rounded-2xl laptop:rounded-[0px]
             laptop:w-[42%] object-cover"
           />
         </div>
@@ -75,7 +80,7 @@ export default function ExpertiseComponent() {
           <img
             src="logistics.svg"
             alt="Logistics"
-            className="mobile:my-2 laptop:my-0
+            className="mobile:my-2 laptop:my-0 mobile:rounded-2xl laptop:rounded-[0px]
                   hidden laptop:block
                   tablet:w-[50%] tablet:object-cover
                   laptop:w-[42%] laptop:object-cover"
@@ -117,7 +122,7 @@ export default function ExpertiseComponent() {
             <img
               src="logistics.svg"
               alt="Logistics"
-              className="mobile:my-2 laptop:my-0
+              className="mobile:my-2 laptop:my-0 mobile:rounded-2xl laptop:rounded-[0px]
                 laptop:hidden"
             />
           </div>
@@ -165,7 +170,7 @@ export default function ExpertiseComponent() {
           <img
             src="esg.svg"
             alt="ESG"
-            className="mobile:my-2 laptop:my-0
+            className="mobile:my-2 laptop:my-0 mobile:rounded-2xl laptop:rounded-[0px]
             laptop:w-[42%] object-cover
             "
           />

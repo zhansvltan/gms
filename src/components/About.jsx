@@ -5,9 +5,9 @@ export default function AboutUsComponent() {
     <div id="about">
       <h1
         className="text-[#5d5d5b] font-[500] mt-8
-                mobile:text-[24px]
+                mobile:text-[24px] mobile:text-center
                 tablet:text-[36px] 
-                laptop:text-[42px]"
+                laptop:text-[42px] laptop:text-start"
       >
         О нас
       </h1>
@@ -23,13 +23,14 @@ export default function AboutUsComponent() {
           className="max-w-[60%] 
           mobile:w-[70%]
           laptop:w-[60%]
+          mobile:rounded-2xl laptop:rounded-[0px]
           m-0"
         />
         <p
           className="text-[#030303] w-[100%] 
-          mobile:text-[14px]
+          mobile:text-[14px] mobile:text-center
           tablet:text-[22px]
-          laptop:text-[26px] laptop:max-w-[42%]
+          laptop:text-[26px] laptop:text-start laptop:max-w-[42%]
           m-0"
         >
           <strong>Green Mobility Solutions (IEC Research)</strong> оказывает
