@@ -20,9 +20,9 @@ const HomePage = () => {
         <ExpertiseComponent />
         <ProjectComponent />
         <PartnerComponent />
-        <ConsultationComponent />
-        <Contact />
       </div>
+      <ConsultationComponent />
+      <Contact />
     </div>
   )
 }
