@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function GroupsComponent() {
   return (
-    <div className="bg-white">
+    <div className="bg-white" id="groups">
       <h2
         className="font-[500] text-[#5d5d5b] mb-4
                   mobile:text-[24px] mobile:text-center

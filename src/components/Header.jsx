@@ -3,19 +3,6 @@ import { Link } from 'react-router-dom'
 
 export default function Header() {
   const [isMenuOpen, setMenuOpen] = useState(false)
-  /* useEffect(() => {
-    // Add/remove a class to the body when isMenuOpen changes
-    if (isMenuOpen) {
-      document.body.classList.add('menu-open')
-    } else {
-      document.body.classList.remove('menu-open')
-    }
-
-    // Cleanup effect
-    return () => {
-      document.body.classList.remove('menu-open')
-    }
-  }, [isMenuOpen]) */
 
   const handleScrollClick = (targetId) => {
     const targetComponent = document.getElementById(targetId)
@@ -36,17 +23,28 @@ export default function Header() {
     <div id="header" className="max-w-[100vw]">
       {/* Navigation */}
       <nav
-        className={`flex items-center justify-between relative rounded-t-3xl bg-white shadow-[0px_2px_10px_rgba(3,3,3,0.1)] p-4 
-        mobile:z-10`}
+        className={`flex items-center relative rounded-t-3xl bg-white shadow-[0px_2px_10px_rgba(3,3,3,0.1)] p-4 
+        mobile:z-10 mobile:justify-between
+        laptop:gap-[17vw] laptop:justify-normal`}
       >
-        <img
-          src="logo.svg"
-          alt="logo"
-          className="
+        <div className="flex gap-[1.5vw] items-center">
+          <img
+            src="logo.svg"
+            alt="logo"
+            className="
           mobile:w-[81px] 
           tablet:w-[147px] 
           laptop:w-[163px]"
-        />
+          />
+          <img
+            src="iec.svg"
+            alt="logo"
+            className="
+          mobile:w-[74px] 
+          tablet:w-[120px] 
+          laptop:w-[148px]"
+          />
+        </div>
         {/* Burger Menu Button */}
         <button
           className="
@@ -59,7 +57,8 @@ export default function Header() {
         {/* Navigation Links */}
         <div
           className={`flex justify-between items-center
-                    mobile:absolute mobile:z-10 mobile:top-[7vh] mobile:w-[100%] tablet:top-[11vh] mobile:py-4 mobile:left-[0px] mobile:bg-white
+                    mobile:absolute mobile:z-10 mobile:top-[5vh] mobile:w-[100%] 
+                    tablet:top-[7vh] mobile:py-4 mobile:left-[0px] mobile:bg-white
                     laptop:static laptop:w-[50%] ${
                       isMenuOpen ? 'flex-col' : 'hidden laptop:flex'
                     }`}
@@ -70,6 +69,13 @@ export default function Header() {
             onClick={() => handleScrollClick('about')}
           >
             О нас
+          </Link>
+          <Link
+            to="/"
+            className="text-[#030303] mobile:text-[18px] laptop:text-[16px]"
+            onClick={() => handleScrollClick('groups')}
+          >
+            О группе компаний
           </Link>
           <Link
             to="/"
@@ -88,17 +94,24 @@ export default function Header() {
           <Link
             to="/"
             className="text-[#030303] mobile:text-[18px] laptop:text-[16px]"
-            onClick={() => handleScrollClick('main')}
+            onClick={() => handleScrollClick('partners')}
           >
-            Новости
+            Партнеры
           </Link>
           <Link
-            to="/"
+            to="/contact"
             className="text-[#030303] mobile:text-[18px] laptop:text-[16px]"
-            onClick={() => handleScrollClick('contact')}
           >
             Контакты
           </Link>
+          <div className="flex gap-[1.5vw] laptop:absolute right-[10px]">
+            <button>
+              <img src="rus.svg" />
+            </button>
+            <button>
+              <img src="en.svg" />
+            </button>
+          </div>
         </div>
       </nav>
     </div>

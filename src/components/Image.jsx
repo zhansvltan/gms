@@ -53,7 +53,7 @@ export default function ImageComponent() {
                       tablet:h-[40px] tablet:text-[12px]
                       laptop:h-[45px] laptop:text-[16px] laptop:w-[22vw]"
         >
-          Оставить заявку
+          Узнать подробнее
         </button>
       </div>
     </div>

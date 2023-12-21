@@ -3,6 +3,7 @@ import React from 'react'
 export default function PartnerComponent() {
   return (
     <div
+      id="partners"
       className="flex bg-white items-center justify-center  
         mobile:flex-col mobile:my-8
         laptop:flex-row laptop:my-36"

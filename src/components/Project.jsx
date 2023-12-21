@@ -7,19 +7,16 @@ const ProjectComponent = () => {
       imageSrc: 'project1.svg',
       name: 'Проект №1',
       description: 'Описание проекта №1',
-      logo: 'Logo',
     },
     {
       imageSrc: 'project2.svg',
       name: 'Проект №2',
       description: 'Описание проекта №2',
-      logo: 'Logo',
     },
     {
       imageSrc: 'project3.svg',
       name: 'Проект №3',
       description: 'Описание проекта №3',
-      logo: 'Logo',
     },
   ]
 
@@ -30,16 +27,17 @@ const ProjectComponent = () => {
           className="font-[500] text-[#5d5d5b] my-8
                 mobile:text-[24px] mobile:text-center
                 tablet:text-[36px] 
-                laptop:text-[42px] laptop:text-start"
+                laptop:text-[42px] laptop:text-start
+                mobile:px-[20px] laptop:px-[60px]"
         >
           Наши реализованные проекты
         </h2>
       </div>
       <div
-        className="flex justify-around 
+        className="flex justify-around items-baseline
       mobile:flex-col mobile:space-y-3 mobile:items-center
       tablet:space-y-6 
-      laptop:flex-row"
+      laptop:flex-row laptop:items-baseline"
       >
         {cardsData.map((card, index) => (
           <Card key={index} {...card} />

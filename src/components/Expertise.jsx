@@ -19,14 +19,15 @@ export default function ExpertiseComponent() {
         className="bg-white text-[#5d5d5b] font-[500] mt-4 mb-8
        mobile:text-[24px] mobile:text-center 
        tablet:text-[36px] 
-       laptop:text-[42px] laptop:text-start"
+       laptop:text-[42px] laptop:text-start
+       mobile:px-[20px] laptop:px-[60px]"
       >
         Наша экспертиза
       </h2>
-      <div className="mobile:text-center laptop:text-start">
+      <div className="mobile:text-center laptop:text-start bg-[#f0f0f0]">
         <div
           id="infrastructure"
-          className="flex justify-evenly 
+          className="flex justify-between 
           mobile:flex-col mobile:items-center
           laptop:flex-row"
         >
@@ -34,7 +35,7 @@ export default function ExpertiseComponent() {
             className="flex-col
             mobile:items-center mobile:flex mobile:space-y-3
             laptop:space-y-6
-            laptop:block"
+            laptop:block laptop:pl-[7%]"
           >
             <h3
               className="text-[#030303] font-[600]
@@ -67,13 +68,13 @@ export default function ExpertiseComponent() {
             src="infra.svg"
             alt="Infrastructure"
             className="mobile:my-2 laptop:my-0 mobile:rounded-2xl laptop:rounded-[0px]
-            laptop:w-[42%] object-cover"
+            laptop:w-[50%] object-cover"
           />
         </div>
 
         <div
           id="logistics"
-          className="flex justify-evenly 
+          className="flex justify-between 
           mobile:flex-col mobile:items-center 
           laptop:flex-row"
         >
@@ -83,13 +84,13 @@ export default function ExpertiseComponent() {
             className="mobile:my-2 laptop:my-0 mobile:rounded-2xl laptop:rounded-[0px]
                   hidden laptop:block
                   tablet:w-[50%] tablet:object-cover
-                  laptop:w-[42%] laptop:object-cover"
+                  laptop:w-[50%] laptop:object-cover"
           />
           <div
             className="flex-col
             mobile:items-center mobile:flex mobile:space-y-3 
             laptop:space-y-6
-            laptop:block"
+            laptop:block laptop:pl-[7%]"
           >
             <h3
               className="text-[#030303] font-[600]
@@ -130,14 +131,14 @@ export default function ExpertiseComponent() {
 
         <div
           id="esg"
-          className="flex justify-evenly 
+          className="flex justify-between 
           mobile:flex-col mobile:items-center 
           laptop:flex-row"
         >
           <div
             className="flex-col justify-center
              mobile:items-center mobile:flex mobile:space-y-3 
-             laptop:space-y-6 laptop:block"
+             laptop:space-y-6 laptop:block laptop:pl-[7%]"
           >
             <h3
               className="text-[#030303] font-[600] 
@@ -171,7 +172,7 @@ export default function ExpertiseComponent() {
             src="esg.svg"
             alt="ESG"
             className="mobile:my-2 laptop:my-0 mobile:rounded-2xl laptop:rounded-[0px]
-            laptop:w-[42%] object-cover
+            laptop:w-[50%] object-cover
             "
           />
         </div>
