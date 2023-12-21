@@ -38,6 +38,7 @@ const ProjectComponent = () => {
       <div
         className="flex justify-around 
       mobile:flex-col mobile:space-y-3 mobile:items-center
+      tablet:space-y-6 
       laptop:flex-row"
       >
         {cardsData.map((card, index) => (

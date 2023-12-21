@@ -14,7 +14,7 @@ const HomePage = () => {
     <div className="overflow-hidden">
       <Header />
       <ImageComponent />
-      <div className="mobile:px-[20px] laptop:px-[32px]">
+      <div className="mobile:px-[20px] laptop:px-[60px]">
         <AboutUsComponent />
         <GroupsComponent />
         <ExpertiseComponent />

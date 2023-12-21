@@ -24,10 +24,10 @@ export default function ImageComponent() {
                     laptop:h-[560px]"
       />
       <div
-        className="absolute flex-col justify-between items-start pl-4
-                  mobile:max-w-[75%]  mobile:top-[85px] mobile:space-y-4
-                  tablet:max-w-[60%]  tablet:top-[150px] tablet:space-y-6
-                  laptop:max-w-[45%]  laptop:top-[170px] laptop:space-y-10 "
+        className="absolute flex-col justify-between items-start
+                  mobile:max-w-[75%]  mobile:top-[85px] mobile:space-y-4 mobile:pl-4
+                  tablet:max-w-[60%]  tablet:top-[150px] tablet:space-y-6 
+                  laptop:max-w-[45%]  laptop:top-[170px] laptop:space-y-10 laptop:pl-12"
       >
         <h2
           className="text-white font-[500]
