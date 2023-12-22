@@ -48,7 +48,7 @@ export default function GroupsComponent() {
           className="flex-col bg-teal-700 px-6 pt-6 pb-12 rounded-xl 
           mobile:pb-12 
           tablet:w-[50%] tablet:pb-12 
-          laptop:w-[30%] laptop:pb-0"
+          laptop:w-[30%] laptop:pb-12"
         >
           <h3
             className="text-[24px] text-[#ffffff]"
@@ -74,7 +74,7 @@ export default function GroupsComponent() {
         </div>
         <div
           className="flex-col bg-yellow-500 rounded-xl px-6 pt-6 
-          mobile:pb-12 
+        mobile:pb-12 
         tablet:w-[50%] tablet:pb-12 
         laptop:w-[30%] laptop:pb-0"
         >
