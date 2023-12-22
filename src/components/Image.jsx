@@ -3,7 +3,7 @@ import React from 'react'
 export default function ImageComponent() {
   const handleScrollClick = () => {
     // Replace 'targetComponentId' with the actual ID of the target component
-    const targetComponent = document.getElementById('contact')
+    const targetComponent = document.getElementById('consultation')
 
     if (targetComponent) {
       const yOffset =

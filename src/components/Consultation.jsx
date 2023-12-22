@@ -1,8 +1,10 @@
 import React from 'react'
 
+import { Link } from 'react-router-dom'
+
 export default function ConsultationComponent() {
   return (
-    <div className="flex justify-center bg-[#c3f2cb]">
+    <div className="flex justify-center bg-[#c3f2cb]" id="consultation">
       <div className="flex-col">
         <h2
           className="text-[#030303] font-[600] text-center
@@ -32,7 +34,7 @@ export default function ConsultationComponent() {
           tablet:text-[14px] tablet:w-[183px] tablet:h-[45px]
           laptop:text-[16px] laptop:w-[208px] laptop:h-[54px]"
           >
-            Оставить заявку
+            <Link to="/contact">Оставить заявку</Link>
           </button>
           <button
             className="leading-tight text-[#030303] bg-[#ffffff] rounded-[24px] font-[600] 
@@ -40,7 +42,7 @@ export default function ConsultationComponent() {
                   tablet:text-[14px] tablet:w-[183px] tablet:h-[45px]
                   laptop:text-[16px] laptop:w-[208px] laptop:h-[54px]"
           >
-            Контакты
+            <Link to="/contact">Контакты</Link>
           </button>
         </div>
       </div>

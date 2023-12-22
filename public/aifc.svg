@@ -1,10 +1,10 @@
 
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 333 104" width="333" height="104" fill="none">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 264 88" width="264" height="88" fill="none">
   <g opacity="100%" filter="url(#filter_dshadow_0_0_0_00000014)">
-    <rect x="0" y="0" width="333" height="104" rx="8" fill="url(#image-pattern-0c3ab2f4-d385-473e-8062-f090d5cafa1a)"></rect>
+    <rect x="0" y="0" width="264" height="88" rx="8" fill="url(#image-pattern-0c3ab2f4-d385-473e-8062-f090d5cafa1a)"></rect>
     <defs>
       <pattern id="image-pattern-0c3ab2f4-d385-473e-8062-f090d5cafa1a" patternContentUnits="objectBoundingBox" width="1" height="1">
-        <use href="#image_https://assets.api.uizard.io/api/cdn/stream/92be12f4-3f13-4e73-a04c-ffffafa9be8e.png" transform="matrix(0.001 0 0 0.0032019230769230766 0 -0.026716346153846098)"></use>
+        <use href="#image_https://assets.api.uizard.io/api/cdn/stream/92be12f4-3f13-4e73-a04c-ffffafa9be8e.png" transform="matrix(0.0010131712259371835 0 0 0.00303951367781155 -0.006585612968591752 0)"></use>
       </pattern>
     </defs>
   </g>
