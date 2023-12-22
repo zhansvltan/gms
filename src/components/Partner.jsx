@@ -23,18 +23,15 @@ export default function PartnerComponent() {
       >
         <div className="flex justify-between">
           <div>
-            <img src="lancaster.svg" alt="Lancaster" />
-          </div>
-          <div>
             <img src="world.svg" alt="World Bank Group" />
-          </div>
-        </div>
-        <div className="flex justify-between">
-          <div>
-            <img src="aifc.svg" alt="AIFC" />
           </div>
           <div>
             <img src="dubai.svg" alt="Dubai" />
+          </div>
+        </div>
+        <div className="flex justify-center">
+          <div>
+            <img src="aifc.svg" alt="AIFC" />
           </div>
         </div>
       </div>

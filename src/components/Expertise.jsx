@@ -16,7 +16,7 @@ export default function ExpertiseComponent() {
   return (
     <div id="services">
       <h2
-        className="bg-white text-[#5d5d5b] font-[500] mt-4 mb-8
+        className="bg-white text-[#5d5d5b] font-[500] mt-8 mb-8
        mobile:text-[24px] mobile:text-center 
        tablet:text-[36px] 
        laptop:text-[42px] laptop:text-start

@@ -52,7 +52,7 @@ export default function Header() {
           laptop:hidden"
           onClick={() => setMenuOpen(!isMenuOpen)}
         >
-          <img src="burger.svg" className="laptop:hidden" />
+          <img src="burger.svg" className="laptop:hidden" alt="burger menu" />
         </button>
         {/* Navigation Links */}
         <div
@@ -106,10 +106,10 @@ export default function Header() {
           </Link>
           <div className="flex gap-[1.5vw] laptop:absolute right-[10px]">
             <button>
-              <img src="rus.svg" />
+              <img src="rus.svg" alt="russian" />
             </button>
             <button>
-              <img src="en.svg" />
+              <img src="en.svg" alt="english" />
             </button>
           </div>
         </div>
