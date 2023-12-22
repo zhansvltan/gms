@@ -13,10 +13,15 @@ export default function GroupsComponent() {
       </h2>
       <div
         className="flex 
-      mobile:flex-col mobile:space-y-2 mobile:items-center mobile:px-8 
+      mobile:flex-col mobile:space-y-3 mobile:items-center mobile:px-8 
       laptop:flex-row laptop:space-y-0 laptop:items-stretch laptop:justify-between laptop:px-16"
       >
-        <div className="flex-col bg-orange-600 px-6 pt-6 mobile:w-[90%] laptop:w-[30%]  rounded-xl">
+        <div
+          className="flex-col bg-orange-600 px-6 pt-6  rounded-xl 
+          mobile:pb-12 
+        tablet:w-[50%] tablet:pb-12 
+        laptop:w-[30%] laptop:pb-0"
+        >
           <h3
             className="text-[24px] text-[#ffffff] m-0 "
             style={{ lineHeight: '31px', fontWeight: '300' }}
@@ -39,7 +44,12 @@ export default function GroupsComponent() {
             решений и прикладного видения стратегических изменений.
           </p>
         </div>
-        <div className="flex-col bg-teal-700 px-6 pt-6 pb-12 w-[30%]  rounded-xl">
+        <div
+          className="flex-col bg-teal-700 px-6 pt-6 pb-12 rounded-xl 
+          mobile:pb-12 
+          tablet:w-[50%] tablet:pb-12 
+          laptop:w-[30%] laptop:pb-0"
+        >
           <h3
             className="text-[24px] text-[#ffffff]"
             style={{ lineHeight: '31px', fontWeight: '300' }}
@@ -62,7 +72,12 @@ export default function GroupsComponent() {
             использованием больших данных и передовой аналитики.
           </p>
         </div>
-        <div className="flex-col bg-yellow-500 px-6 pt-6 w-[30%]  rounded-xl">
+        <div
+          className="flex-col bg-yellow-500 rounded-xl px-6 pt-6 
+          mobile:pb-12 
+        tablet:w-[50%] tablet:pb-12 
+        laptop:w-[30%] laptop:pb-0"
+        >
           <h3
             className="text-[24px] text-[#ffffff] "
             style={{ lineHeight: '31px', fontWeight: '300' }}
