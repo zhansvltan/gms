@@ -39,12 +39,12 @@ const Contact = () => {
       <iframe
         title="Google Maps"
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2505.9698856010987!2d71.40905707689787!3d51.09056327172152!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x424585701844b831%3A0xcccf73ca09422f3!2sMfts%20Astana!5e0!3m2!1sen!2skz!4v1703416044916!5m2!1sen!2skz"
-        width="100%"
         height="450"
         style={{ border: 0 }}
         allowFullScreen
         loading="lazy"
         referrerPolicy="no-referrer-when-downgrade"
+        className="laptop:pl-[7%] mobile:w-[100%] laptop:w-[93%]"
       ></iframe>
     </div>
   )
