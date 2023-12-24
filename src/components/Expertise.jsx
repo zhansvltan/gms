@@ -57,9 +57,9 @@ export default function ExpertiseComponent() {
             <button
               onClick={handleScrollClick}
               className="leading-tight text-[#000000] bg-[#c3f2cb] rounded-3xl font-[500]
-                mobile:w-[28vw] mobile:h-[25px] mobile:text-[10px]
+                mobile:w-[28vw] mobile:h-[25px] mobile:text-[10px] mobile:mb-1
                 tablet:w-[210px] tablet:h-[40px] tablet:text-[12px]
-                laptop:w-[316px] laptop:h-[45px] laptop:text-[16px]"
+                laptop:w-[316px] laptop:h-[45px] laptop:text-[16px] laptop:mb-0"
             >
               Узнать подробнее
             </button>
@@ -97,9 +97,9 @@ export default function ExpertiseComponent() {
           >
             <h3
               className="text-[#030303] font-[600]
-                mobile:text-[16px] 
+                mobile:text-[16px] mobile:mt-2
                 tablet:text-[22px]
-                laptop:text-[42px]
+                laptop:text-[42px] laptop:mt-0
                 "
             >
               Логистика
@@ -147,9 +147,9 @@ export default function ExpertiseComponent() {
           >
             <h3
               className="text-[#030303] font-[600] 
-                mobile:text-[16px] 
+                mobile:text-[16px] mobile:mt-4
                 tablet:text-[22px] 
-                laptop:text-[42px]"
+                laptop:text-[42px] laptop:mt-0"
             >
               ESG
             </h3>
@@ -166,7 +166,7 @@ export default function ExpertiseComponent() {
             <button
               onClick={handleScrollClick}
               className="leading-tight text-[#000000] bg-[#c3f2cb] rounded-3xl font-[500] 
-                      mobile:w-[28vw] mobile:h-[25px] mobile:text-[10px] 
+                      mobile:w-[28vw] mobile:h-[25px] mobile:text-[10px]
                       tablet:w-[210px] tablet:h-[40px] tablet:text-[12px]
                       laptop:w-[316px] laptop:h-[45px] laptop:text-[16px]"
             >
@@ -176,7 +176,7 @@ export default function ExpertiseComponent() {
           <img
             src="esg.svg"
             alt="ESG"
-            className="mobile:my-2 laptop:my-0 mobile:rounded-2xl mobile:w-[75%]
+            className="mobile:my-3 laptop:my-0 mobile:rounded-2xl mobile:w-[75%]
             tablet:w-[100%] tablet:object-cover
             laptop:rounded-[0px] laptop:w-[50%] object-cover
             "
