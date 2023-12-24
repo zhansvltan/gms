@@ -69,7 +69,8 @@ export default function ExpertiseComponent() {
             alt="Infrastructure"
             className="object-cover
              mobile:my-2 laptop:my-0 mobile:rounded-2xl
-              laptop:rounded-[0px]
+             tablet:w-[100%] tablet:object-cover
+            laptop:rounded-[0px]
             laptop:w-[50%]"
           />
         </div>
@@ -126,8 +127,9 @@ export default function ExpertiseComponent() {
               src="logistics.svg"
               alt="Logistics"
               className="mobile:my-2 mobile:rounded-2xl object-cover
-               laptop:my-0 
-              laptop:hidden laptop:rounded-[0px]"
+         tablet:w-[1024px] tablet:object-cover
+         laptop:my-0 
+         laptop:hidden laptop:rounded-[0px]"
             />
           </div>
         </div>
@@ -175,6 +177,7 @@ export default function ExpertiseComponent() {
             src="esg.svg"
             alt="ESG"
             className="mobile:my-2 laptop:my-0 mobile:rounded-2xl 
+            tablet:w-[100%] tablet:object-cover
             laptop:rounded-[0px] laptop:w-[50%] object-cover
             "
           />
