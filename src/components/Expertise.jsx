@@ -18,7 +18,7 @@ export default function ExpertiseComponent() {
       <h2
         className="bg-white text-[#5d5d5b] font-[500] mt-8 mb-8
        mobile:text-[18px] mobile:text-center 
-       tablet:text-[36px] 
+       tablet:text-[30px] 
        laptop:text-[42px] laptop:text-start
        mobile:px-[20px] laptop:px-[60px]"
       >
@@ -40,14 +40,14 @@ export default function ExpertiseComponent() {
             <h3
               className="text-[#030303] font-[600]
                 mobile:text-[16px]
-                tablet:text-[30px]
+                tablet:text-[22px]
                 laptop:text-[42px]"
             >
               Инфраструктура
             </h3>
             <p
               className="text-[#030303] max-w-[454px] 
-            mobile:w-[90%] mobile:text-[12px] 
+            mobile:w-[95%] mobile:text-[14px] 
             tablet:w-[90%] tablet:text-[16px]
             laptop:w-[100%] laptop:text-[20px]"
             >
@@ -57,7 +57,7 @@ export default function ExpertiseComponent() {
             <button
               onClick={handleScrollClick}
               className="leading-tight text-[#000000] bg-[#c3f2cb] rounded-3xl font-[500]
-                mobile:w-[105px] mobile:h-[25px] mobile:text-[8px]
+                mobile:w-[28vw] mobile:h-[25px] mobile:text-[10px]
                 tablet:w-[210px] tablet:h-[40px] tablet:text-[12px]
                 laptop:w-[316px] laptop:h-[45px] laptop:text-[16px]"
             >
@@ -67,8 +67,10 @@ export default function ExpertiseComponent() {
           <img
             src="infra.svg"
             alt="Infrastructure"
-            className="mobile:my-2 laptop:my-0 mobile:rounded-2xl laptop:rounded-[0px]
-            laptop:w-[50%] object-cover"
+            className="object-cover
+             mobile:my-2 laptop:my-0 mobile:rounded-2xl
+              laptop:rounded-[0px]
+            laptop:w-[50%]"
           />
         </div>
 
@@ -81,10 +83,10 @@ export default function ExpertiseComponent() {
           <img
             src="logistics.svg"
             alt="Logistics"
-            className="mobile:my-2 laptop:my-0 mobile:rounded-2xl laptop:rounded-[0px]
+            className="mobile:my-2 laptop:my-0 mobile:rounded-2xl
                   hidden laptop:block
-                  tablet:w-[50%] tablet:object-cover
-                  laptop:w-[50%] laptop:object-cover"
+                  laptop:w-[50%] laptop:object-cover
+                  laptop:rounded-[0px]"
           />
           <div
             className="flex-col
@@ -95,7 +97,7 @@ export default function ExpertiseComponent() {
             <h3
               className="text-[#030303] font-[600]
                 mobile:text-[16px] 
-                tablet:text-[36px]
+                tablet:text-[22px]
                 laptop:text-[42px]
                 "
             >
@@ -103,7 +105,7 @@ export default function ExpertiseComponent() {
             </h3>
             <p
               className="text-[#030303] max-w-[577px] 
-              mobile:w-[90%] mobile:text-[12px] 
+              mobile:w-[95%] mobile:text-[14px] 
               tablet:w-[75%] tablet:text-[16px]
               laptop:w-[100%] laptop:text-[20px]
             "
@@ -114,7 +116,7 @@ export default function ExpertiseComponent() {
             <button
               onClick={handleScrollClick}
               className="leading-tight text-[#000000] bg-[#c3f2cb] rounded-3xl font-[500] 
-              mobile:h-[25px] mobile:text-[8px] mobile:w-[28vw]
+              mobile:h-[25px] mobile:text-[10px] mobile:w-[28vw]
               tablet:h-[40px] tablet:text-[12px]
               laptop:h-[45px] laptop:text-[16px] laptop:w-[22vw]"
             >
@@ -123,8 +125,9 @@ export default function ExpertiseComponent() {
             <img
               src="logistics.svg"
               alt="Logistics"
-              className="mobile:my-2 laptop:my-0 mobile:rounded-2xl laptop:rounded-[0px]
-                laptop:hidden"
+              className="mobile:my-2 mobile:rounded-2xl object-cover
+               laptop:my-0 
+              laptop:hidden laptop:rounded-[0px]"
             />
           </div>
         </div>
@@ -143,14 +146,14 @@ export default function ExpertiseComponent() {
             <h3
               className="text-[#030303] font-[600] 
                 mobile:text-[16px] 
-                tablet:text-[36px] 
+                tablet:text-[22px] 
                 laptop:text-[42px]"
             >
               ESG
             </h3>
             <p
               className="text-[#030303] max-w-[454px] 
-              mobile:w-[90%] mobile:text-[12px] 
+              mobile:w-[95%] mobile:text-[14px] 
               tablet:w-[75%] tablet:text-[16px]
               laptop:w-[100%] laptop:text-[20px]"
             >
@@ -161,7 +164,7 @@ export default function ExpertiseComponent() {
             <button
               onClick={handleScrollClick}
               className="leading-tight text-[#000000] bg-[#c3f2cb] rounded-3xl font-[500] 
-                      mobile:w-[105px] mobile:h-[25px] mobile:text-[8px] 
+                      mobile:w-[28vw] mobile:h-[25px] mobile:text-[10px] 
                       tablet:w-[210px] tablet:h-[40px] tablet:text-[12px]
                       laptop:w-[316px] laptop:h-[45px] laptop:text-[16px]"
             >
@@ -171,8 +174,8 @@ export default function ExpertiseComponent() {
           <img
             src="esg.svg"
             alt="ESG"
-            className="mobile:my-2 laptop:my-0 mobile:rounded-2xl laptop:rounded-[0px]
-            laptop:w-[50%] object-cover
+            className="mobile:my-2 laptop:my-0 mobile:rounded-2xl 
+            laptop:rounded-[0px] laptop:w-[50%] object-cover
             "
           />
         </div>

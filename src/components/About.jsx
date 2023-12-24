@@ -6,7 +6,7 @@ export default function AboutUsComponent() {
       <h1
         className="text-[#5d5d5b] font-[500] mt-8
                 mobile:text-[18px] mobile:text-center mobile:px-[20px]
-                tablet:text-[36px] 
+                tablet:text-[30px] 
                 laptop:text-[42px] laptop:text-start laptop:px-[60px]"
       >
         О нас
@@ -28,7 +28,7 @@ export default function AboutUsComponent() {
         <p
           className="text-[#030303] 
           mobile:text-[14px] mobile:text-left mobile:justify-center mobile:w-[80%]
-          tablet:text-[22px]
+          tablet:text-[16px]
           laptop:text-[26px] laptop:text-start laptop:leading-[34px]
           m-0"
         >

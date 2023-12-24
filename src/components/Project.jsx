@@ -26,7 +26,7 @@ const ProjectComponent = () => {
         <h2
           className="font-[500] text-[#5d5d5b] my-8
                 mobile:text-[18px] mobile:text-center
-                tablet:text-[36px] 
+                tablet:text-[30px] 
                 laptop:text-[42px] laptop:text-start
                 mobile:px-[20px] laptop:px-[60px]"
         >
