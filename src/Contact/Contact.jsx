@@ -44,7 +44,7 @@ const Contact = () => {
         allowFullScreen
         loading="lazy"
         referrerPolicy="no-referrer-when-downgrade"
-        className="laptop:pl-[7%] mobile:w-[100%] laptop:w-[93%]"
+        className="mobile:p-2 laptop:pl-[7%] mobile:w-[100%] laptop:w-[93%]"
       ></iframe>
     </div>
   )
