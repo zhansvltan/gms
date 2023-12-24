@@ -57,8 +57,8 @@ export default function Header() {
         {/* Navigation Links */}
         <div
           className={`flex justify-between items-center
-                    mobile:absolute mobile:z-10 mobile:top-[6vh] mobile:w-[100%] 
-                    tablet:top-[8vh] bigtablet:top-[9vh] mobile:py-4 mobile:left-[0px] mobile:bg-white
+                    mobile:absolute mobile:z-10 mobile:top-[6vh] mobile:w-[100%] mobile:py-4 mobile:left-[0px] mobile:bg-white
+                    tablet:top-[8vh] bigtablet:top-[9vh]
                     laptop:static laptop:w-[50%] ${
                       isMenuOpen ? 'flex-col' : 'hidden laptop:flex'
                     }`}

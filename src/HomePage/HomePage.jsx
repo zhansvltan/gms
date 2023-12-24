@@ -7,6 +7,7 @@ import ExpertiseComponent from '../components/Expertise'
 import ProjectComponent from '../components/Project'
 import PartnerComponent from '../components/Partner'
 import ConsultationComponent from '../components/Consultation'
+import Contact from '../Contact/Contact'
 
 const HomePage = () => {
   return (
@@ -19,6 +20,7 @@ const HomePage = () => {
       <ProjectComponent />
       <PartnerComponent />
       <ConsultationComponent />
+      <Contact />
     </div>
   )
 }
