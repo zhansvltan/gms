@@ -4,7 +4,7 @@ const Card = ({ imageSrc, name, description }) => {
   return (
     <div
       className="rounded-[24px] overflow-hidden shadow-[0px_2px_10px_rgba(3,3,3,0.1)]
-    mobile:w-[68%]
+    mobile:w-[75%]
     tablet:w-[50%]
     laptop:w-[21.5%]"
     >

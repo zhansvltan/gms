@@ -17,14 +17,14 @@ export default function ExpertiseComponent() {
     <div id="services">
       <h2
         className="bg-white text-[#5d5d5b] font-[500] mt-8 mb-8
-       mobile:text-[18px] mobile:text-start 
+       mobile:text-[18px] mobile:text-center 
        tablet:text-[30px] 
        laptop:text-[42px] laptop:text-start
        mobile:px-[20px] laptop:px-[60px]"
       >
         Наша экспертиза
       </h2>
-      <div className="mobile:text-start laptop:text-start bg-[#f0f0f0]">
+      <div className="mobile:text-justify laptop:text-start bg-[#f0f0f0] pt-4">
         <div
           id="infrastructure"
           className="flex justify-between 
@@ -47,7 +47,7 @@ export default function ExpertiseComponent() {
             </h3>
             <p
               className="text-[#030303] max-w-[454px] 
-            mobile:w-[95%] mobile:text-[14px] 
+            mobile:w-[75%] mobile:text-[14px] 
             tablet:w-[90%] tablet:text-[16px]
             laptop:w-[100%] laptop:text-[20px]"
             >
@@ -68,7 +68,7 @@ export default function ExpertiseComponent() {
             src="infra.svg"
             alt="Infrastructure"
             className="object-cover
-             mobile:my-2 laptop:my-0 mobile:rounded-2xl
+             mobile:my-2 laptop:my-0 mobile:rounded-2xl mobile:w-[75%]
              tablet:w-[100%] tablet:object-cover
             laptop:rounded-[0px]
             laptop:w-[50%]"
@@ -84,7 +84,7 @@ export default function ExpertiseComponent() {
           <img
             src="logistics.svg"
             alt="Logistics"
-            className="mobile:my-2 laptop:my-0 mobile:rounded-2xl
+            className="mobile:my-2 laptop:my-0 mobile:rounded-2xl mobile:w-[75%]
                   hidden laptop:block
                   laptop:w-[50%] laptop:object-cover
                   laptop:rounded-[0px]"
@@ -106,7 +106,7 @@ export default function ExpertiseComponent() {
             </h3>
             <p
               className="text-[#030303] max-w-[577px] 
-              mobile:w-[95%] mobile:text-[14px] 
+              mobile:w-[75%] mobile:text-[14px] 
               tablet:w-[75%] tablet:text-[16px]
               laptop:w-[100%] laptop:text-[20px]
             "
@@ -126,7 +126,7 @@ export default function ExpertiseComponent() {
             <img
               src="logistics.svg"
               alt="Logistics"
-              className="mobile:my-2 mobile:rounded-2xl object-cover
+              className="mobile:my-2 mobile:rounded-2xl object-cover mobile:w-[75%]
          tablet:w-[1024px] tablet:object-cover
          laptop:my-0 
          laptop:hidden laptop:rounded-[0px]"
@@ -155,7 +155,7 @@ export default function ExpertiseComponent() {
             </h3>
             <p
               className="text-[#030303] max-w-[454px] 
-              mobile:w-[95%] mobile:text-[14px] 
+              mobile:w-[75%] mobile:text-[14px] 
               tablet:w-[75%] tablet:text-[16px]
               laptop:w-[100%] laptop:text-[20px]"
             >
@@ -176,7 +176,7 @@ export default function ExpertiseComponent() {
           <img
             src="esg.svg"
             alt="ESG"
-            className="mobile:my-2 laptop:my-0 mobile:rounded-2xl 
+            className="mobile:my-2 laptop:my-0 mobile:rounded-2xl mobile:w-[75%]
             tablet:w-[100%] tablet:object-cover
             laptop:rounded-[0px] laptop:w-[50%] object-cover
             "

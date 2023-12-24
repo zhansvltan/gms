@@ -13,9 +13,9 @@ export default function AboutUsComponent() {
       </h1>
       <div
         className="flex items-center
-      mobile:flex-col mobile:gap-y-2 mobile:p-4 
+      mobile:flex-col mobile:gap-y-2 mobile:pt-8 mobile:px-8
       tablet:flex-col tablet:gap-y-4
-      laptop:flex-row laptop:justify-between laptop:p-16 laptop:gap-[3vw]"
+      laptop:flex-row laptop:justify-between laptop:pt-16 laptop:px-16 laptop:gap-[3vw]"
       >
         <img
           src="expo.svg"

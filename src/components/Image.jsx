@@ -38,10 +38,10 @@ export default function ImageComponent() {
           Формируем будущее инфраструктуры
         </h2>
         <p
-          className="text-white font-[100]
-                    mobile:text-[14px] 
+          className="text-white
+                    mobile:text-[14px] mobile:font-[300]
                     tablet:text-[18px] 
-                    laptop:text-[24px]"
+                    laptop:text-[24px] laptop:font-[100]"
         >
           Частная консалтинговая компания, работающая в формате фабрики мысли,
           расположенная в Астане в юрисдикции МФЦА

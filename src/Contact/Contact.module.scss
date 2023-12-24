@@ -5,12 +5,13 @@
   }
   h1 {
     color: #030303;
-    font-size: 60px;
+    font-size: 42px;
     font-weight: 700;
     line-height: 70px;
     margin-bottom: 40px;
     @media screen and (max-width: 768px) {
-      font-size: 24px;
+      font-size: 18px;
+      margin-bottom: 20px;
     }
   }
   &__contact {
@@ -54,6 +55,7 @@
     }
     @media screen and (max-width: 768px) {
       width: 350px;
+      font-size: 12px;
     }
   }
 
@@ -75,6 +77,8 @@
     color: #030303;
     @media screen and (max-width: 768px) {
       width: 350px;
+      height: 50px;
+      font-size: 14px;
     }
   }
 }
@@ -92,12 +96,17 @@
     // padding-right: 250px;
     width: 450px;
     margin-left: 1rem; /* The default value for px-4 in Tailwind is 1rem */
+    height: 300px;
   }
   h2 {
     font-size: 24px;
     font-weight: 700;
     line-height: 32px;
     margin-bottom: 22px;
+    @media screen and (max-width: 768px) {
+      margin-bottom: 12px;
+      font-size: 18px;
+    }
   }
 
   span {
@@ -106,6 +115,10 @@
     line-height: 22px;
     display: block;
     margin-bottom: 12px;
+    @media screen and (max-width: 768px) {
+      margin-bottom: 8px;
+      font-size: 12px;
+    }
   }
 
   p {
@@ -113,6 +126,10 @@
     font-weight: 700;
     line-height: 22px;
     margin-bottom: 12px;
+    @media screen and (max-width: 768px) {
+      font-size: 12px;
+      margin-bottom: 8px;
+    }
   }
 
   strong {
