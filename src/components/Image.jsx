@@ -30,7 +30,7 @@ export default function ImageComponent() {
                   laptop:max-w-[45%]  laptop:top-[170px] laptop:space-y-10 laptop:pl-12"
       >
         <h2
-          className="text-white font-[500]
+          className="text-white font-[500] pt-4
                       mobile:text-[24px] 
                       tablet:text-[36px] 
                       laptop:text-[52px]"

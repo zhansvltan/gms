@@ -17,7 +17,7 @@ export default function ExpertiseComponent() {
     <div id="services">
       <h2
         className="bg-white text-[#5d5d5b] font-[500] mt-8 mb-8
-       mobile:text-[24px] mobile:text-center 
+       mobile:text-[18px] mobile:text-center 
        tablet:text-[36px] 
        laptop:text-[42px] laptop:text-start
        mobile:px-[20px] laptop:px-[60px]"
@@ -39,7 +39,7 @@ export default function ExpertiseComponent() {
           >
             <h3
               className="text-[#030303] font-[600]
-                mobile:text-[18px]
+                mobile:text-[16px]
                 tablet:text-[30px]
                 laptop:text-[42px]"
             >
@@ -94,7 +94,7 @@ export default function ExpertiseComponent() {
           >
             <h3
               className="text-[#030303] font-[600]
-                mobile:text-[24px] 
+                mobile:text-[16px] 
                 tablet:text-[36px]
                 laptop:text-[42px]
                 "
@@ -142,7 +142,7 @@ export default function ExpertiseComponent() {
           >
             <h3
               className="text-[#030303] font-[600] 
-                mobile:text-[24px] 
+                mobile:text-[16px] 
                 tablet:text-[36px] 
                 laptop:text-[42px]"
             >

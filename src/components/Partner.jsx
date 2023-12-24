@@ -10,7 +10,7 @@ export default function PartnerComponent() {
     >
       <h2
         className="text-[#030303] font-[500] 
-        mobile:text-[24px] mobile:text-center
+        mobile:text-[18px] mobile:text-center
         tablet:text-[36px] 
         laptop:max-w-[30%] laptop:text-start laptop:text-[42px]"
       >

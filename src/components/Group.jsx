@@ -17,8 +17,8 @@ export default function GroupsComponent() {
       laptop:flex-row laptop:space-y-0 laptop:items-stretch laptop:justify-between laptop:px-16"
       >
         <div
-          className="flex-col bg-orange-600 mobile:px-4 mobile:pt-4 laptop:px-6 laptop:pt-6  rounded-xl 
-          mobile:pb-12 
+          className="flex-col bg-orange-600 mobile:px-4 mobile:pt-4 laptop:px-6 laptop:pt-6  rounded-xl
+        mobile:pb-[7.5rem] 
         mobile:w-[80%]
           tablet:w-[50%] tablet:pb-12 
         laptop:w-[30%] laptop:pb-0"
@@ -29,14 +29,14 @@ export default function GroupsComponent() {
           <p className="text-[#ffffff] mobile:text-[14px] laptop:text-[24px] font-[300] mobile:leading-[24px] laptop:leading-[31px] m-0 mb-8 ">
             Париж, Франция
           </p>
-          <p className="text-[#ffffff] mobile:text-[14px] laptop:text-[24px] font-[300] mobile:leading-[24px] laptop:leading-[31px] m-0 w-[90%]">
+          <p className="text-[#ffffff] mobile:text-[14px] laptop:text-[24px] font-[300] mobile:leading-[24px] laptop:leading-[31px] m-0 laptop:w-[90%]">
             Предоставляет консультационные услуги в сфере инфраструктуры и
             транспорта на основе международного опыта, уникальных цифровых
             решений и прикладного видения стратегических изменений.
           </p>
         </div>
         <div
-          className="flex-col bg-teal-700 mobile:px-4 mobile:pt-4 laptop:px-6 laptop:pt-6 pb-12 rounded-xl 
+          className="flex-col bg-teal-700 mobile:px-4 mobile:pt-4 laptop:px-6 laptop:pt-6 rounded-xl 
           mobile:pb-12 
           mobile:w-[80%]
           tablet:w-[50%] tablet:pb-12 
@@ -57,7 +57,7 @@ export default function GroupsComponent() {
         </div>
         <div
           className="flex-col bg-yellow-500 rounded-xl mobile:px-4 mobile:pt-4 laptop:px-6 laptop:pt-6 
-                mobile:pb-12 
+                mobile:pb-[7.5rem] 
                 mobile:w-[80%]
                 tablet:w-[50%] tablet:pb-12 
                 laptop:w-[30%] laptop:pb-0"
