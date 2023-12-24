@@ -1,7 +1,5 @@
 import React from 'react'
 
-import { Link } from 'react-router-dom'
-
 export default function ConsultationComponent() {
   const handleScrollClick = () => {
     // Replace 'targetComponentId' with the actual ID of the target component

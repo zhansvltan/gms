@@ -1,7 +1,6 @@
 import React from 'react'
 import style from './Contact.module.scss'
 const Contact = () => {
-  const position = [51.505, -0.09]
   return (
     <div className={style.wrapper} id="contact">
       <h1 className={style.heading}>Связаться с нами</h1>
