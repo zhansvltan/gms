@@ -27,7 +27,7 @@ export default function AboutUsComponent() {
         />
         <p
           className="text-[#030303] 
-          mobile:text-[14px] mobile:text-left mobile:justify-center mobile:w-[80%]
+          mobile:text-[14px] mobile:text-justify mobile:justify-center mobile:w-[80%]
           tablet:text-[16px]
           laptop:text-[26px] laptop:text-start laptop:leading-[34px]
           m-0"
