@@ -17,14 +17,14 @@ export default function ExpertiseComponent() {
     <div id="services">
       <h2
         className="bg-white text-[#5d5d5b] font-[500] mt-8 mb-8
-       mobile:text-[18px] mobile:text-center 
+       mobile:text-[18px] mobile:text-start 
        tablet:text-[30px] 
        laptop:text-[42px] laptop:text-start
        mobile:px-[20px] laptop:px-[60px]"
       >
         Наша экспертиза
       </h2>
-      <div className="mobile:text-center laptop:text-start bg-[#f0f0f0]">
+      <div className="mobile:text-start laptop:text-start bg-[#f0f0f0]">
         <div
           id="infrastructure"
           className="flex justify-between 
