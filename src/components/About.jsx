@@ -5,33 +5,32 @@ export default function AboutUsComponent() {
     <div id="about">
       <h1
         className="text-[#5d5d5b] font-[500] mt-8
-                mobile:text-[24px] mobile:text-center mobile:px-[20px]
+                mobile:text-[18px] mobile:text-center mobile:px-[20px]
                 tablet:text-[36px] 
                 laptop:text-[42px] laptop:text-start laptop:px-[60px]"
       >
         О нас
       </h1>
       <div
-        className="flex items-center mobile:p-8 laptop:p-16
-      mobile:flex-col mobile:gap-y-2
+        className="flex items-center
+      mobile:flex-col mobile:gap-y-2 mobile:p-4 
       tablet:flex-col tablet:gap-y-4
-      laptop:flex-row laptop:justify-between laptop:gap-[3vw]"
+      laptop:flex-row laptop:justify-between laptop:p-16 laptop:gap-[3vw]"
       >
         <img
           src="expo.svg"
           alt="Expo"
           className=" 
-          mobile:max-w-[70%] laptop:max-w-[60%]
+          mobile:max-w-[80%] laptop:max-w-[60%]
           mobile:rounded-2xl laptop:rounded-[0px]
           m-0"
         />
         <p
           className="text-[#030303] 
-          mobile:text-[14px] mobile:text-center
+          mobile:text-[14px] mobile:text-left mobile:justify-center mobile:w-[80%]
           tablet:text-[22px]
-          laptop:text-[26px] laptop:text-start
+          laptop:text-[26px] laptop:text-start laptop:leading-[34px]
           m-0"
-          style={{ lineHeight: '34px' }}
         >
           <strong>Green Mobility Solutions (IEC Research)</strong> оказывает
           услуги в сфере экономического консалтинга, развития территорий и

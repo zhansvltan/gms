@@ -31,7 +31,7 @@ export default function ImageComponent() {
       >
         <h2
           className="text-white font-[500]
-                      mobile:text-[26px] 
+                      mobile:text-[24px] 
                       tablet:text-[36px] 
                       laptop:text-[52px]"
         >
@@ -39,7 +39,7 @@ export default function ImageComponent() {
         </h2>
         <p
           className="text-white font-[100]
-                    mobile:text-[12px] 
+                    mobile:text-[14px] 
                     tablet:text-[18px] 
                     laptop:text-[24px]"
         >
