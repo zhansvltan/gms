@@ -1,7 +1,5 @@
 import React from 'react'
 import style from './Contact.module.scss'
-import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet'
-import 'leaflet/dist/leaflet.css'
 const Contact = () => {
   const position = [51.505, -0.09]
   return (
@@ -38,23 +36,16 @@ const Contact = () => {
           </span>
         </div>
       </div>
-      {/* <img
-        className={`${style.image} ${style.responsiveImage}`}
-        src="/image.png"
-        alt=""
-      /> */}
-      {/* 
-      <MapContainer
-        center={[51.505, -0.09]}
-        zoom={13}
-        style={{ height: '400px', width: '100%' }}
-      >
-        <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
-        <Marker position={[51.505, -0.09]}>
-          <Popup>Here is marker</Popup>
-        </Marker>
-      </MapContainer> */}
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2505.9698856010987!2d71.40905707689787!3d51.09056327172152!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x424585701844b831%3A0xcccf73ca09422f3!2sMfts%20Astana!5e0!3m2!1sen!2skz!4v1703416044916!5m2!1sen!2skz"></iframe>
+      <iframe
+        title="Google Maps"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2505.9698856010987!2d71.40905707689787!3d51.09056327172152!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x424585701844b831%3A0xcccf73ca09422f3!2sMfts%20Astana!5e0!3m2!1sen!2skz!4v1703416044916!5m2!1sen!2skz"
+        width="100%"
+        height="450"
+        style={{ border: 0 }}
+        allowFullScreen
+        loading="lazy"
+        referrerPolicy="no-referrer-when-downgrade"
+      ></iframe>
     </div>
   )
 }
